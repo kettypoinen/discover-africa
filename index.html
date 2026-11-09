@@ -131,8 +131,10 @@ button:focus-visible, select:focus-visible, a:focus-visible, .card:focus-visible
 .striphead { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap }
 .striphead h2 { font: 900 24px/1.1 var(--display); font-stretch: 112% }
 .strip { display: grid; grid-auto-flow: column; grid-auto-columns: 220px; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 14px 2px 10px; overscroll-behavior-x: contain }
-/* Thin, paper-coloured scrollbar so the strip looks the same in every browser (no white track). */
-.strip { scrollbar-width: thin; scrollbar-color: var(--line) transparent }
+/* Thin, paper-coloured scrollbar so the strip looks the same in every browser (no white track).
+   Safari/Chrome/Brave use the ::-webkit-scrollbar rules; setting the standard properties there would switch those off,
+   so the standard ones apply only where ::-webkit-scrollbar is unsupported (Firefox). */
+@supports not selector(::-webkit-scrollbar) { .strip { scrollbar-width: thin; scrollbar-color: var(--line) transparent } }
 .strip::-webkit-scrollbar { height: 8px; background: transparent }
 .strip::-webkit-scrollbar-track { background: transparent }
 .strip::-webkit-scrollbar-thumb { background: var(--line); border-radius: 999px }
