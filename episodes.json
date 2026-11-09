@@ -1,0 +1,3751 @@
+{
+ "updated": "2026-11-09",
+ "episodes": [
+  {
+   "n": 1,
+   "country": "Morocco",
+   "internetPct": 91.2,
+   "population": "36.8M (2024 census)",
+   "gdpPerCapita": "$4,746 (2026, IMF est.)",
+   "headline": {
+    "exports": "Cars, phosphates, food",
+    "imports": "Fuel, machines, cars",
+    "fintech": "Who moves the money",
+    "different": "Cash first, app second",
+    "stability": "Stable, for now",
+    "map": "Africa's door to the West"
+   },
+   "exportsTotal": "MAD 469 bn (2025)",
+   "topExports": [
+    [
+     "Automotive",
+     "154.5"
+    ],
+    [
+     "Phosphates & fertilisers",
+     "99.8"
+    ],
+    [
+     "Agriculture & agrifood",
+     "86.8"
+    ],
+    [
+     "Textiles & leather",
+     "43.8"
+    ],
+    [
+     "Aerospace",
+     "29.0"
+    ]
+   ],
+   "exportCallout": "Cars now earn more than phosphates; car plants in Tangier and Kenitra drive the boom",
+   "topImports": [
+    [
+     "Energy bill (single biggest import line)",
+     "MAD 107.6 bn"
+    ],
+    [
+     "Equipment (utility vehicles, aircraft parts)",
+     "+13%"
+    ],
+    [
+     "Consumer goods (cars, medicines)",
+     "+12%"
+    ],
+    [
+     "Raw materials (sulphur, soybean oil)",
+     "+32%"
+    ]
+   ],
+   "tradeBalance": "Gap -353 (MAD bn; exports 469 vs imports 822)",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Cash agents + app",
+     "name": "CashPlus",
+     "text": "1,850 outlets; 2.8M monthly app users"
+    },
+    {
+     "tag": "Diaspora transfers",
+     "name": "Wafacash",
+     "text": "2,100 outlets; Attijariwafa Bank group"
+    },
+    {
+     "tag": "Mobile-only transfers",
+     "name": "Yashir Cash",
+     "text": "1.4M users; 0.5% fee vs 1.5–2% elsewhere"
+    },
+    {
+     "tag": "Merchant payments",
+     "name": "Payzone",
+     "text": "24,000 merchants on POS; Raised MAD 180M (2025)"
+    },
+    {
+     "tag": "Telco mobile wallets",
+     "name": "Inwi · Orange Money",
+     "text": "4.2M active accounts combined, end-2025"
+    },
+    {
+     "tag": "None fully licensed yet",
+     "name": "Neobanks · robo-advisors",
+     "text": "Banks launch own apps (e.g. Attijariwafa's Simple)"
+    }
+   ],
+   "regulationRead": "Tight, 4.5 / 5",
+   "stability": "\"Managed stability\" — Monarchy-anchored; 2026 elections unlikely to shift power. Watch: Gen Z 212 protests; Youth unemployment 21.9%; Widening current-account gap (no numeric stability score shown)",
+   "business": "World Bank B-READY 63.4 of 100, #2 in Africa (Global avg 60.1 · Africa avg 50.9)",
+   "hub": {
+    "city": "Casablanca",
+    "airport": null
+   },
+   "destinations": {
+    "Africa": null,
+    "Europe": null,
+    "Middle East": null,
+    "Americas": null,
+    "Asia": null,
+    "Oceania": null,
+    "total": null
+   },
+   "airportFacts": [
+    "18.8M air passengers, Jan–Jun 2026 (+8.8%)",
+    "Casablanca hub: 5.76M (+10.1%)",
+    "Royal Air Maroc: ~60 jets, aiming for 200 by 2037",
+    "Nonstop since June 2026 — Africa's first link to the US West Coast"
+   ],
+   "takeaways": [
+    [
+     null,
+     "Africa's most online country — 91% use the internet"
+    ],
+    [
+     null,
+     "An industrial exporter: cars now out-earn phosphates"
+    ],
+    [
+     null,
+     "Fintech grows through cash agents; foreign neobanks wait"
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank (latest estimates) via worldstats.io, 2026",
+    "Source: HCP 2024 census via Morocco World News; IMF projections via StatisticsTimes",
+    "Source: Office des Changes 2024–25 via Maroc.ma, AllAfrica (2025 values derived from reported changes)",
+    "Source: Office des Changes via AllAfrica (Feb 2026), Infomédiaire",
+    "Source: Wafir.ma fintech ranking 2026; Morocco World News (June 2026)",
+    "Source: Morocco World News (June 2026); Wafir.ma; Bank Al-Maghrib",
+    "Source: Univ. of Navarra Political Risk Report (May 2026); World Bank B-READY via Hespress",
+    "Source: ONDA via Hespress (July 2026); WeeTracker (Dec 2025)"
+   ],
+   "gdpValue": 4746,
+   "video": "videos/day01.mp4",
+   "thumb": "thumbs/day01.jpg",
+   "accent": "#C0272A"
+  },
+  {
+   "n": 2,
+   "country": "Seychelles",
+   "internetPct": 87.8,
+   "population": "122,730",
+   "gdpPerCapita": "$19,007 (2025, IMF estimate)",
+   "headline": {
+    "exports": "Fish, fuel and boats",
+    "imports": "Yachts, fuel and fish",
+    "fintech": "Wallets, not neobanks",
+    "different": "Small market, offshore roots",
+    "stability": "Stable — with red tape",
+    "map": "18 cities, nonstop"
+   },
+   "exportsTotal": "$595M total goods exports in 2024 (WITS)",
+   "topExports": [
+    [
+     "Frozen fish",
+     "$281M"
+    ],
+    [
+     "Processed fish",
+     "$246M"
+    ],
+    [
+     "Refined petroleum",
+     "$138M"
+    ],
+    [
+     "Recreational boats",
+     "$51.2M"
+    ],
+    [
+     "Fresh fish",
+     "$13.7M"
+    ]
+   ],
+   "exportCallout": "Fish is the goods story; tourism earns the rest — visitors rose 13% in 2025, past the 2019 peak",
+   "topImports": [
+    [
+     "Recreational boats",
+     "$448M"
+    ],
+    [
+     "Refined petroleum",
+     "$247M"
+    ],
+    [
+     "Frozen fish",
+     "$127M"
+    ],
+    [
+     "Ships",
+     "$94M"
+    ],
+    [
+     "Cars",
+     "$24.9M"
+    ]
+   ],
+   "tradeBalance": "Deficit: −$913M (trade in goods 2024: exports $595M, imports $1,508M)",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "MOBILE MONEY",
+     "name": "Airtel Money",
+     "text": "Launched 2015 — the first e-money service licensed by the Central Bank (CBS)."
+    },
+    {
+     "tag": "E-WALLET",
+     "name": "Eboo · Nebula FinTech",
+     "text": "PSP licence 2023, live 2024. Pay friends, shops and Cable & Wireless bills."
+    },
+    {
+     "tag": "PAYMENTS STARTUP",
+     "name": "FusePay",
+     "text": "PSP licence Nov 2025. FuseCheq turns post-dated cheques into scheduled payments."
+    },
+    {
+     "tag": "BANK RAILS",
+     "name": "SEFT",
+     "text": "CBS-run near-instant bank transfers used by Nouvobanq, Absa, MCB and others."
+    },
+    {
+     "tag": "CRYPTO",
+     "name": "Offshore exchanges",
+     "text": "OKX, KuCoin and MEXC once incorporated here; crypto firms now need an FSA licence."
+    },
+    {
+     "tag": "GAPS",
+     "name": "None found",
+     "text": "No licensed local neobank and no robo-advisor serving Seychelles residents."
+    }
+   ],
+   "regulationRead": "Tightening (gauge Light→Tight, no numeric score)",
+   "stability": "Freedom House 2025: 80/100 · Free",
+   "business": "World Bank B-READY 2025 percentile band: Regulatory framework Bottom 20%; Public services Bottom 40%; Operational efficiency Top 60%",
+   "hub": {
+    "city": "Mahé",
+    "airport": "Mahé (SEZ)"
+   },
+   "destinations": {
+    "Africa": 6,
+    "Europe": 5,
+    "Middle East": 4,
+    "Americas": 0,
+    "Asia": 3,
+    "Oceania": 0,
+    "total": 18
+   },
+   "airportFacts": [
+    "354k visitors by late Nov 2025, +12%",
+    "Air Seychelles: 2 A320neo + 5 Twin Otters",
+    "Plus 13 foreign airlines, Gulf hubs to Frankfurt"
+   ],
+   "takeaways": [
+    [
+     null,
+     "Africa’s richest per head (~$19k) and #2 online at 87.8%."
+    ],
+    [
+     null,
+     "Fish and tourism pay the bills; goods imports are 2.5x exports."
+    ],
+    [
+     null,
+     "Fintech is wallets and payments — no neobank, no robo-advisor yet."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users (% of population), via worldstats.io",
+    "Source: World Bank internet users (% of population), via worldstats.io, Oct 2026",
+    "Source: World Bank Seychelles overview (population); IMF World Economic Outlook (GDP per capita, current US$, 2025)",
+    "Source: OEC country profile (product values, 2022); World Bank WITS (2024 total); World Bank overview (tourism)",
+    "Source: OEC country profile (top imports, 2022); World Bank WITS country snapshot (2024 totals)",
+    "Source: Seychelles News Agency; BIS (CBS speeches 2024); The Condia (Nov 2025); FSA Seychelles / Legal Nodes (VASP Act 2024)",
+    "Source: CBS (National Payment System Act 2014, E-Money Regulations 2022); FSA VASP Act 2024; Nation.sc (sandbox consultation, Mar 2026)",
+    "Source: Freedom House, Freedom in the World 2025; AP via Click2Houston (Oct 2025); World Bank B-READY 2025 profile, via Blue Economy Seychelles (Aug 2026)",
+    "Source: Wikipedia SEZ airlines & destinations, cross-checked with seychellesinternationalairport.com (Jul 2026); ATTA (visitors); Wikipedia (Air Seychelles fleet)",
+    "Source: figures as cited in each section"
+   ],
+   "gdpValue": 19007,
+   "video": "videos/day02.mp4",
+   "thumb": "thumbs/day02.jpg",
+   "accent": "#003C85"
+  },
+  {
+   "n": 3,
+   "country": "Libya",
+   "internetPct": 82.0,
+   "population": "7.46m (World Bank, 2025)",
+   "gdpPerCapita": "$6,449 (current US$, World Bank, 2025)",
+   "headline": {
+    "exports": "$32.6bn of exports, 94% oil",
+    "imports": "$28.4bn of imports",
+    "fintech": "Bank apps, not wallets",
+    "different": "Born in a cash crunch",
+    "stability": "Two governments, one oil",
+    "map": "22 cities, nonstop"
+   },
+   "exportsTotal": "$32.6bn (2025)",
+   "topExports": [
+    [
+     "Crude oil & fuels",
+     "$30.7bn"
+    ],
+    [
+     "Gold & precious metals",
+     "$0.78bn"
+    ],
+    [
+     "Iron, steel & scrap",
+     "$0.72bn"
+    ],
+    [
+     "Chemicals",
+     "$0.25bn"
+    ]
+   ],
+   "exportCallout": "Top buyer Italy, $6.7bn in 2025; then Germany $5.9bn, Spain $2.7bn, UK $2.5bn",
+   "topImports": [
+    [
+     "Machinery & electricals",
+     "$6.0bn"
+    ],
+    [
+     "Fuel & mineral products",
+     "$4.5bn"
+    ],
+    [
+     "Food, drinks & tobacco",
+     "$3.7bn"
+    ],
+    [
+     "Vehicles",
+     "$2.3bn"
+    ],
+    [
+     "Chemicals",
+     "$1.9bn"
+    ]
+   ],
+   "tradeBalance": "+$4.2bn surplus (2025), down from +$6.6bn in 2024",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "MOBILE BANKING",
+     "name": "4.29m",
+     "text": "subscribers to bank apps (Feb 2026); Masarat is a licensed mobile-banking processor"
+    },
+    {
+     "tag": "INSTANT PAYMENTS",
+     "name": "LYPAY",
+     "text": "LYPAY–ONEPAY: 18.3m transfers worth LYD 108.7bn in 2025"
+    },
+    {
+     "tag": "CARDS & POS",
+     "name": "5.5m",
+     "text": "active cards and 165k POS terminals; processors include Moamalat"
+    },
+    {
+     "tag": "E-WALLETS",
+     "name": "187k",
+     "text": "wallet accounts across 7 licensed wallets, e.g. Almadar Aljadid, RUNPAY"
+    },
+    {
+     "tag": "GAPS",
+     "name": "No licensed neobank · No robo-advisor · No sandbox",
+     "text": ""
+    }
+   ],
+   "regulationRead": "Tight (slider Light-touch→Strict, no numeric score); regulator Central Bank of Libya",
+   "stability": "Political stability, World Bank WGI (2023): -2.17 (scale -2.5 weak to +2.5 strong)",
+   "business": "Business climate: Not scored yet (World Bank B-READY covers Libya from its 2027 edition; Heritage 2026 index: \"not ranked\"); Corruption Perceptions 2025: 13/100, 177th of 182 countries",
+   "hub": {
+    "city": "Tripoli",
+    "airport": "Mitiga, MJI"
+   },
+   "destinations": {
+    "Africa": 7,
+    "Europe": 10,
+    "Middle East": 5,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 22
+   },
+   "airportFacts": [
+    "Tripoli’s only working international airport",
+    "All Libyan airlines are banned from EU skies",
+    "Coming: Algiers (28 Oct) · ITA to Rome (3 Dec)",
+    "* seasonal Hajj / Umrah flights"
+   ],
+   "takeaways": [
+    [
+     "82% online",
+     "Africa’s #3 — nearly double the 43% African average."
+    ],
+    [
+     "Oil is 94% of exports",
+     "Payments run on bank apps and cards; no neobank, no robo-advisor yet."
+    ],
+    [
+     "22 nonstop cities",
+     "Europe-heavy network from Mitiga — yet Libyan airlines can’t fly to the EU."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users (% of population), via worldstats.io",
+    "Source: World Bank WDI (population, GDP per capita); World Bank Libya Economic Monitor, Fall 2025",
+    "Source: Central Bank of Libya, “Libya’s foreign trade 2022–2025”; World Bank Libya Economic Monitor, Fall 2025",
+    "Source: Central Bank of Libya, “Libya’s foreign trade 2022–2025”",
+    "Source: Central Bank of Libya (e-payment data 2025, licensed e-payment companies list) via North Africa Post; CBL Circular 6/2024",
+    "Source: CBL Circulars 6/2024, 12/2024 via RegAlert; Algérie-Eco (Aug 2017); CBL e-payment data 2025",
+    "Source: Security Council Report (Jun 2026); World Bank WGI; World Bank B-READY; Heritage Foundation 2026; Transparency International CPI 2025",
+    "Source: Wikipedia “Mitiga International Airport” (Oct 2026); EU Air Safety List via Agenzia Nova (Jul 2026); Düsseldorf Airport",
+    "Source: as cited in each section above"
+   ],
+   "gdpValue": 6449,
+   "video": "videos/day03.mp4",
+   "thumb": "thumbs/day03.jpg",
+   "accent": "#209D43"
+  },
+  {
+   "n": 4,
+   "country": "South Africa",
+   "internetPct": 78.4,
+   "population": "63.1M (mid-2025 estimate, Stats SA)",
+   "gdpPerCapita": "US$6,253 (2024, World Bank, current US$)",
+   "headline": {
+    "exports": "Metals and motors pay the bills",
+    "imports": "Fuel tops the import bill",
+    "fintech": "Bank-led fintech, not telco wallets",
+    "different": "Banks did what telcos do elsewhere",
+    "stability": "Stable democracy, coalition era",
+    "map": "67 cities, nonstop"
+   },
+   "exportsTotal": "US$123.2bn in 2025",
+   "topExports": [
+    [
+     "Platinum-group metals",
+     "10.1%"
+    ],
+    [
+     "Gold",
+     "7.9%"
+    ],
+    [
+     "Passenger cars",
+     "6.6%"
+    ],
+    [
+     "Trucks & bakkies",
+     "5.4%"
+    ],
+    [
+     "Iron ore",
+     "5.3%"
+    ]
+   ],
+   "exportCallout": "18% of export earnings come from two metals (PGMs and gold); income engines: mining, vehicle making, farming (citrus, wine), finance and tourism",
+   "topImports": [
+    [
+     "Refined fuel",
+     "12.1%"
+    ],
+    [
+     "Passenger cars",
+     "4.7%"
+    ],
+    [
+     "Crude oil",
+     "3.9%"
+    ],
+    [
+     "Mobile phones",
+     "3.2%"
+    ],
+    [
+     "Computers",
+     "2.3%"
+    ]
+   ],
+   "tradeBalance": "Trade surplus 2025: R201.6bn (exports US$123.2bn, imports US$111.2bn), up from R197.1bn in 2024",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "NEOBANK",
+     "name": "TymeBank",
+     "text": "11M+ customers; profitable since Dec 2023. Nubank led a US$250M round (US$1.5bn valuation)."
+    },
+    {
+     "tag": "NEOBANK",
+     "name": "Discovery Bank",
+     "text": "Rewards healthy living via Vitality; turned profitable in H1 FY2026."
+    },
+    {
+     "tag": "DIGITAL-FIRST BANK",
+     "name": "Capitec",
+     "text": "Low-fee, app-first bank with ~24M clients and a branch network."
+    },
+    {
+     "tag": "PAYMENTS",
+     "name": "PayShap · Yoco · Ozow",
+     "text": "PayShap: 136M+ instant payments since 2023. Yoco: 200k+ merchants. Plus Stitch, Peach."
+    },
+    {
+     "tag": "INVESTING & CRYPTO",
+     "name": "EasyEquities · Luno",
+     "text": "App-based share & ETF investing; Luno for crypto. US$643M raised by SA fintech in 2025."
+    },
+    {
+     "tag": "GAPS",
+     "name": "Mobile money & robo",
+     "text": "No mobile-money licence: M-Pesa quit in 2016, MTN MoMo is marginal. Robo-advice is niche (Sygnia)."
+    }
+   ],
+   "regulationRead": "Tight (gauge light→strict, no numeric score)",
+   "stability": "Political stability 58.9/100 (World Bank WGI 2025, up from a 52.2 low in 2021); 10 parties in the Government of National Unity since 2024; Local elections: 4 Nov 2026",
+   "business": "Regulatory quality (business-climate proxy) 54.3/100 (World Bank WGI 2025, #99 of 205 economies); Not yet in World Bank B-READY: joins the 2027 edition",
+   "hub": {
+    "city": "Johannesburg",
+    "airport": "O.R. Tambo"
+   },
+   "destinations": {
+    "Africa": 47,
+    "Europe": 8,
+    "Middle East": 3,
+    "Americas": 3,
+    "Asia": 4,
+    "Oceania": 2,
+    "total": 67
+   },
+   "airportFacts": [
+    "20.1M passengers FY2025/26",
+    "18 SAA aircraft Dec 2025"
+   ],
+   "takeaways": [
+    [
+     null,
+     "Metals and cars earn the exports; fuel is the biggest import."
+    ],
+    [
+     null,
+     "Fintech runs through banks (TymeBank, Capitec, PayShap) under Twin Peaks rules."
+    ],
+    [
+     null,
+     "Johannesburg is a true hub: 67 nonstop international cities on 6 continents."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users (% of population), via worldstats.io, Oct 2026",
+    "Source: Stats SA Mid-year population estimates 2025; World Bank WDI GDP per capita (2024)",
+    "Source: UN Comtrade 2025, via ACCIÓ trade portal (Generalitat de Catalunya)",
+    "Source: UN Comtrade 2025 via ACCIÓ; SARS trade statistics (rand surplus, Dec 2025 release)",
+    "Source: AllBusiness.Africa (2026); News24 (Feb 2026); Stitch PayShap report 2026; NextBillion; TechCentral; The Citizen",
+    "Source: SARB / FSCA (FSR Act 2017); IFWG sandbox report 2022; Moonstone (Dec 2025); TechCentral (Sep 2026)",
+    "Source: World Bank Worldwide Governance Indicators (0-100 scores); World Bank B-READY covered economies; Rio Times",
+    "Source: Wikipedia O.R. Tambo Intl. \"Airlines and destinations\" (Oct 2026); ACSA via Road Genius; Aviation Week (SAA fleet)",
+    "Source: Sources as cited in each section"
+   ],
+   "gdpValue": 6253,
+   "video": "videos/day04.mp4",
+   "thumb": "thumbs/day04.jpg",
+   "accent": "#007648"
+  },
+  {
+   "n": 5,
+   "country": "Algeria",
+   "internetPct": 77.4,
+   "population": "47.0M (as of 1 July 2025)",
+   "gdpPerCapita": "$5,997 (GDP per person, 2025, current US$, IMF) · ≈ $18,500 at PPP",
+   "headline": {
+    "exports": "Gas and oil pay the bills",
+    "imports": "Machines and food in; surplus gone",
+    "fintech": "The post office is the biggest fintech",
+    "different": "Dinar-only, and the state runs the rails",
+    "stability": "Steady at the top, hard to do business",
+    "map": "56 cities, nonstop"
+   },
+   "exportsTotal": "US$49.1 bn (goods exports 2024)",
+   "topExports": [
+    [
+     "Petroleum gas",
+     "47.9% · $23.5bn"
+    ],
+    [
+     "Crude oil",
+     "27.4% · $13.4bn"
+    ],
+    [
+     "Refined fuels",
+     "16.1% · $7.9bn"
+    ],
+    [
+     "Fertilisers (N)",
+     "1.8% · $0.9bn"
+    ],
+    [
+     "Everything else",
+     "6.8% · $3.3bn"
+    ]
+   ],
+   "exportCallout": "≈91% of exports are hydrocarbons (gas, crude and refined fuels); top buyers 2023: Italy $15.2bn, France $7.6bn, Spain $6.7bn",
+   "topImports": [
+    [
+     "Machinery",
+     "$5.6bn"
+    ],
+    [
+     "Vehicles",
+     "$3.5bn"
+    ],
+    [
+     "Cereals",
+     "$3.1bn"
+    ],
+    [
+     "Electrical equip.",
+     "$2.5bn"
+    ],
+    [
+     "Medicines",
+     "$1.5bn"
+    ]
+   ],
+   "tradeBalance": "Goods trade balance (US$ bn): 2023 +15.7 (exports 57.1, imports 41.5); 2024 +3.7 (exports 49.1, imports 45.3); 2025 −4.7 (exports 45.4, imports 50.1)",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "MOBILE PAYMENTS",
+     "name": "BaridiMob + Baridi Pay",
+     "text": "Algérie Poste’s app; QR payments at shops since June 2025. 27.5M postal (CCP) accounts."
+    },
+    {
+     "tag": "CARDS",
+     "name": "Edahabia & CIB",
+     "text": "22M+ cards: ≈18M postal Edahabia, ≈4.5M bank CIB. 104k card terminals (Mar 2026)."
+    },
+    {
+     "tag": "VOLUME",
+     "name": "DZD 939bn",
+     "text": "paid electronically in 2025, up 46% on 2024; online payments up 179%."
+    },
+    {
+     "tag": "SUPER-APP",
+     "name": "Yassir",
+     "text": "Ride-hailing and delivery app building a wallet; seeking a payment-institution licence."
+    },
+    {
+     "tag": "TELCO",
+     "name": "Djezzy Payment Services",
+     "text": "Cleared in Sept 2026 to set up as a payment provider; licence still to come."
+    },
+    {
+     "tag": "NOT HERE YET",
+     "name": "The gaps",
+     "text": "No licensed neobank. No robo-advisor. No M-Pesa-style telco mobile money."
+    }
+   ],
+   "regulationRead": "Tight (gauge light → very tight; no numeric score shown)",
+   "stability": "Political stability (World Bank WGI) 2024 score −0.69 (scale −2.5 weak to +2.5 strong) · 2022: −0.81 · 2023: −0.73 — slowly improving; Tebboune re-elected Sept 2024 with 84.3%, second term",
+   "business": "Economic Freedom (Heritage 2026): 45.8 of 100, Rank 163, “Repressed”, down 1.7 points on 2025; World Bank B-READY doesn’t cover Algeria yet (scheduled for the 2027 round)",
+   "hub": {
+    "city": "Algiers",
+    "airport": "Houari Boumediene Airport (ALG)"
+   },
+   "destinations": {
+    "Africa": 16,
+    "Europe": 31,
+    "Middle East": 5,
+    "Americas": 1,
+    "Asia": 3,
+    "Oceania": 0,
+    "total": 56
+   },
+   "airportFacts": [
+    "9.15M passengers in 2024",
+    "Air Algérie fleet: 59 aircraft (Apr 2026)",
+    "From late Oct 2026: Shanghai, Delhi, Lagos, Conakry, Brazzaville",
+    "Houari Boumediene Airport (ALG)"
+   ],
+   "takeaways": [
+    [
+     "1",
+     "Hydrocarbons are ≈91% of exports, and the goods trade surplus flipped to a deficit in 2025."
+    ],
+    [
+     "2",
+     "Fintech runs through the post office; private payment providers are only now being licensed."
+    ],
+    [
+     "3",
+     "56 nonstop cities from Algiers, 13 of them in France, with Shanghai and Delhi joining this month."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank, internet users (% of population), via worldstats.io; Africa and world averages from the same set",
+    "Source: Population: Ministry of Health & Population via TSA · GDP per person: IMF World Economic Outlook · PPP: Heritage Index 2026",
+    "Source: Shares: UN Comtrade 2024 via Lloyds Bank Trade · total: WTO · $ values ≈ share × total · buyers: French Treasury (DG Trésor)",
+    "Source: Import groups & 2023 totals: French Treasury (DG Trésor) · 2024–25 totals: WTO via Lloyds Bank Trade · balance = exports − imports",
+    "Source: AlgeriaTech News · Finance Minister to Council of the Nation (14 May 2026) · Algérie Eco (23 Sep 2026) · Bank of Algeria",
+    "Source: Bank of Algeria Reg. 25-02 & Instr. 06-2025 via TSA and Algérie Eco · digital banks: Instr. 02-25 via Algérie360 · AlgeriaTech News",
+    "Source: World Bank WGI via TheGlobalEconomy · Al Jazeera (Sep 2024) · Heritage Index of Economic Freedom 2026 · World Bank B-READY coverage",
+    "Source: Routes (Oct 2026): Wikipedia, airportoverview.com, aerocorner.com, Algérie Eco; excl. domestic, cargo, charter · passengers: Wikipedia · fleet: Algérie Eco"
+   ],
+   "gdpValue": 5997,
+   "video": "videos/day05.mp4",
+   "thumb": "thumbs/day05.jpg",
+   "accent": "#006030"
+  },
+  {
+   "n": 6,
+   "country": "Tunisia",
+   "internetPct": 76.5,
+   "population": "12.42M (2026 est.) · growing ~0.5% a year",
+   "gdpPerCapita": "$4,657 (GDP per person 2025, current US$, World Bank)",
+   "headline": {
+    "exports": "Wires, clothes & olive oil",
+    "imports": "A record TND 21.8bn gap",
+    "fintech": "Wallets yes, neobanks no",
+    "different": "Dinars only, inside Tunisia",
+    "stability": "One-man rule, simmering streets",
+    "map": "53 cities, nonstop"
+   },
+   "exportsTotal": "TND 63.7bn (total exports 2025)",
+   "topExports": [
+    [
+     "Mechanical & electrical (cables, car parts, components)",
+     "22.7bn · Jan–Sep"
+    ],
+    [
+     "Textiles, clothing, leather",
+     "9bn+ (full year)"
+    ],
+    [
+     "Olive oil",
+     "4.07bn (full year, down from 4.86bn)"
+    ],
+    [
+     "Refined fuel",
+     "1.01bn (full year, −45%)"
+    ]
+   ],
+   "exportCallout": "49% of exports are machines & wiring, and 76.6% of those go to the EU (\"Europe’s factory next door\"); also phosphates & derivatives +15% in 2025, EU buys 69.9% of all exports",
+   "topImports": [
+    [
+     "Capital goods",
+     "+14.4% (import growth 2025)"
+    ],
+    [
+     "Consumer goods",
+     "+11.7%"
+    ],
+    [
+     "Raw & semi-finished",
+     "+6.8%"
+    ],
+    [
+     "Energy products",
+     "−6.0%"
+    ],
+    [
+     "Food products",
+     "−8.4%"
+    ]
+   ],
+   "tradeBalance": "Record TND 21.8bn deficit in 2025: imports TND 85.5bn vs exports TND 63.7bn; gap split Energy TND 11.1bn / everything else 10.7bn. EU supplies 43.7% of imports; buying from China rose 20.2%",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "SUPER-APP · PAYMENTS",
+     "name": "Flouci",
+     "text": "Built by Kaoun: IBAN account, cards and wallet through partner banks. Payment facilitator since 2024. 67k active users end-2024; Forbes MENA Top 50 fintech 2025."
+    },
+    {
+     "tag": "LA POSTE WALLET",
+     "name": "D17 · e-Dinar",
+     "text": "The post office’s app. Free wallet for every citizen since July 2025: bills, school fees, transfers, card-free ATM cash."
+    },
+    {
+     "tag": "MERCHANT GATEWAY",
+     "name": "Konnect",
+     "text": "One gateway for online merchants, onboarding in ~15 min. Holds a payment-facilitator licence; Visa accelerator pick and investor."
+    },
+    {
+     "tag": "TELCO MONEY",
+     "name": "Ooredoo · OFT",
+     "text": "Ooredoo’s fintech arm won a full payment-institution licence in March 2026 — the 16th in the country."
+    },
+    {
+     "tag": "GAPS",
+     "name": "The gaps",
+     "text": "No licensed neobank. No robo-advisor found. Cash still king: TND 27.5bn outside banks (Feb 2026, +20% y/y)."
+    },
+    {
+     "tag": "STATS",
+     "name": "Mobile payments 2025",
+     "text": "+81% mobile payments, 2025 · 8.4M transactions · TND 1.77bn value · 815k active wallets"
+    }
+   ],
+   "regulationRead": "Tight (regulation meter light → tight; no numeric score shown)",
+   "stability": "No stability index shown; timeline: Jul 2021 President Saied suspends parliament and sacks the PM · Oct 2024 re-elected with 90.7% on 28.8% turnout · 2026 opposition leader Ghannouchi gets life in prison · Jul 2026 thousands protest on the power grab’s 5th anniversary",
+   "business": "World Bank B-READY 2025: 52.7/100, 5th of 10 African economies covered · Regulatory framework 62.6 · Public services 43.0 · Operational efficiency 52.5 · strongest: starting a business (~87); weakest: insolvency and dispute resolution",
+   "hub": {
+    "city": "Tunis",
+    "airport": "Tunis–Carthage (TUN)"
+   },
+   "destinations": {
+    "Africa": 15,
+    "Europe": 32,
+    "Middle East": 5,
+    "Americas": 1,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 53
+   },
+   "airportFacts": [
+    "7.25M passengers in 2024 (record)",
+    "12 → 21 Tunisair jets flying, Apr ’26 → end-’26 plan",
+    "18.5M seat capacity target by 2031 (TND 3bn)"
+   ],
+   "takeaways": [
+    [
+     "Europe’s workshop next door",
+     "Half of exports are cables & machinery; the EU takes 70% of all exports."
+    ],
+    [
+     "Payments go mobile, cash still rules",
+     "Wallets +81% in 2025, under dinar-only rules and tight caps."
+    ],
+    [
+     "53 nonstop cities, 32 in Europe",
+     "Gulf and West Africa well covered; one Americas link, none to Asia."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users (% of population) via worldstats.io, Oct 2026",
+    "Source: World Bank via worldstats.io (Oct 2026); Africa average 43.1%, world 70.9%",
+    "Source: UN World Population Prospects 2024 (12,415,138 for 2026); World Bank GDP per capita, current US$, 2025 (via FRED)",
+    "Source: INS 2025 trade data via Business News & AllAfrica (Jan 2026); La Presse (Oct 2025); AllAfrica textiles (Mar 2026)",
+    "Source: INS 2025 annual trade figures via Business News Tunisie & AllAfrica (Jan 2026)",
+    "Source: Central Bank of Tunisia data via MEA Tech Watch & Ecofin (2026); Managers.tn; The Condia; MENA Startup Digest",
+    "Source: BCT circular 2026-10 via Managers.tn (Sep 2026); Ecofin (TUNPAY, May 2026); The Condia (Konnect); “our read” = editorial judgement",
+    "Source: Al Jazeera (Jul 2026, Oct 2024); Reuters via Al-Monitor (Aug 2026); World Bank B-READY 2025 via La Presse/AllAfrica (Apr 2026)",
+    "Source: Wikipedia “Tunis–Carthage International Airport” destinations (Oct 2026); OACA; Tunisian transport ministry via AllAfrica; Aviación al Día"
+   ],
+   "gdpValue": 4657,
+   "video": "videos/day06.mp4",
+   "thumb": "thumbs/day06.jpg",
+   "accent": "#E50011"
+  },
+  {
+   "n": 7,
+   "country": "Cape Verde",
+   "internetPct": 74.7,
+   "population": "527,326 (2025, UN World Population Prospects 2024)",
+   "gdpPerCapita": "US$5,805 (GDP per capita 2025, World Bank Macro Poverty Outlook); real GDP growth 2025 +6.3%",
+   "headline": {
+    "exports": "Tourism earns; goods are fish",
+    "imports": "Imports run 13× exports",
+    "fintech": "Bank-first, card-first",
+    "different": "Why this isn't Kenya's M-Pesa",
+    "stability": "Power changes hands at the ballot box",
+    "map": "54 cities, nonstop"
+   },
+   "exportsTotal": "$79.6M (top goods exports, 2024, US$ million total)",
+   "topExports": [
+    [
+     "Canned tuna & bonito",
+     "25.7"
+    ],
+    [
+     "Prepared mackerel",
+     "15.9"
+    ],
+    [
+     "Other prepared fish",
+     "7.6"
+    ],
+    [
+     "Iron & steel scrap",
+     "3.2"
+    ],
+    [
+     "Footwear uppers",
+     "2.7"
+    ]
+   ],
+   "exportCallout": "The real export is tourism: 1.25M hotel guests in 2025 (+6%), the IMF's \"main product and export\"; 57.7% stay on Sal, UK visitors 29.3%; fish preserves = 75.4% of goods exports in 2025 (INE)",
+   "topImports": [
+    [
+     "Refined petroleum",
+     "117.9"
+    ],
+    [
+     "Portland cement",
+     "25.9"
+    ],
+    [
+     "Large diesel cars",
+     "17.9"
+    ],
+    [
+     "Frozen chicken",
+     "17.5"
+    ],
+    [
+     "Milled rice",
+     "17.2"
+    ]
+   ],
+   "tradeBalance": "−$945M goods trade balance 2024 (exports $80M, imports $1,024M); filled by tourism and remittances ($334M in 2024, 12.3% of GDP)",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "PAYMENTS RAIL",
+     "name": "vinti4 · SISP",
+     "text": "The one shared card & ATM network, run by the banks' switch SISP. App adds QR pay, cardless cash, bill pay: ~15.6k app users of ~329k network users (2024)."
+    },
+    {
+     "tag": "MOBILE PAYMENTS",
+     "name": "Pagali · Makeba",
+     "text": "Local payment apps, some tied to bank accounts, some independent. Small next to the card network."
+    },
+    {
+     "tag": "REMITTANCES",
+     "name": "Nikko Pay",
+     "text": "Diaspora transfer app; its founder calls it the first initiative of its kind backed by Banco de Cabo Verde."
+    },
+    {
+     "tag": "STABLECOIN TRANSFERS",
+     "name": "CaboPay",
+     "text": "Early-stage cross-border payments on blockchain rails. \"No one works directly with crypto here yet.\""
+    },
+    {
+     "tag": "THE GAPS",
+     "name": "The gaps",
+     "text": "No licensed neobank · No robo-advisor · Mobile money not widespread"
+    }
+   ],
+   "regulationRead": "Tight on paper (slider Light → Tight, near the tight end; no numeric score shown)",
+   "stability": "Political stability: High (no numeric index) · May 2026 opposition PAICV wins 37 of 72 seats, MpD concedes · Francisco Carvalho sworn in as PM 19 June 2026 · presidential election due 15 Nov 2026 · US State Dept: politically stable, peaceful transfers of power",
+   "business": "World Bank B-READY 2025 pillar scores /100: Regulatory framework 63.7 · Public services 34.5 · Operational efficiency 56.6 · Heritage 2026 Economic Freedom 71.4, #26 in the world, #2 in sub-Saharan Africa",
+   "hub": {
+    "city": "Sal",
+    "airport": "Amílcar Cabral Intl (SID)"
+   },
+   "destinations": {
+    "Africa": 2,
+    "Europe": 50,
+    "Middle East": 0,
+    "Americas": 2,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 54
+   },
+   "airportFacts": [
+    "~2.6M intl passenger movements, all CV airports, 2025 (+11%)",
+    "57.7% of hotel guests stay on Sal (2025)",
+    "2 jets: Cabo Verde Airlines: 737-700 + 737 MAX 8",
+    "VINCI runs the airports (40-yr concession, 2023)"
+   ],
+   "takeaways": [
+    [
+     "74.7% online",
+     "#7 in Africa, above the 70.9% world average and far above Africa's 43.1%."
+    ],
+    [
+     "Tourism pays the bills",
+     "Goods imports are 13× exports; 1.25M hotel guests and remittances close the gap."
+    ],
+    [
+     "Fintech rides the banks",
+     "One shared card rail (vinti4), new laws on the books, no neobank yet. 54 nonstop cities from Sal."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users (% of population) via worldstats.io, Oct 2026",
+    "Source: World Bank internet users (% of population) via worldstats.io; Africa avg 43.1%, world avg 70.9%",
+    "Source: UN WPP 2024 (via Worldometer); World Bank MPO Cabo Verde 2026; IMF press release 26/036 (Feb 2026)",
+    "Source: Atlas of Economic Complexity trade data (HS6, 2024); INE via Inforpress & Lusa; IMF PR 26/036",
+    "Source: Atlas of Economic Complexity trade data (2024); US State Dept 2026 Investment Climate Statement (remittances)",
+    "Source: Expresso das Ilhas (Mar 2024); Bantumen; US State Dept 2026 Investment Climate Statement; The Fintech Times (2026)",
+    "Source: Expresso das Ilhas (banking rate); US State Dept 2026 ICS; Forbes África Lusófona (Feb 2023 draft law)",
+    "Source: Wikipedia: 2026 Cape Verdean elections; US State Dept 2026 ICS; World Bank B-READY 2025, Table A1.1; Heritage Foundation 2026",
+    "Source: Wikipedia \"Amílcar Cabral Intl Airport\" airlines & destinations (Oct 2026); AeroRoutes; Lusa/Newsavia; INE; Cabo Verde Airlines fleet (Wikipedia)"
+   ],
+   "gdpValue": 5805,
+   "video": "videos/day07.mp4",
+   "thumb": "thumbs/day07.jpg",
+   "accent": "#003790"
+  },
+  {
+   "n": 8,
+   "country": "Egypt",
+   "internetPct": 74.7,
+   "population": "109.5M (Sep 2026, CAPMAS clock) · median age 24.5 · 43.5% urban",
+   "gdpPerCapita": "$4,024 (GDP per capita, 2026 est., IMF forecast); $3,379 in 2025; total GDP ~$443bn",
+   "headline": {
+    "exports": "Gold now tops the export list",
+    "imports": "Fuel and wheat come in first",
+    "fintech": "Wallets everywhere, few neobanks",
+    "different": "Banks and the state hold the keys",
+    "stability": "Calm at home, a rough neighbourhood",
+    "map": "119 cities, nonstop"
+   },
+   "exportsTotal": "$51.4bn (total goods exports 2025)",
+   "topExports": [
+    [
+     "Gold & precious stones",
+     "$7.63bn"
+    ],
+    [
+     "Fuels & oil products",
+     "$5.03bn"
+    ],
+    [
+     "Electrical (cables)",
+     "$3.46bn"
+    ],
+    [
+     "Fruit & nuts (citrus)",
+     "$3.00bn"
+    ],
+    [
+     "Plastics",
+     "$2.59bn"
+    ]
+   ],
+   "exportCallout": "#1 orange exporter in the world, six years running; ~2M tonnes of citrus shipped in 2025",
+   "topImports": [
+    [
+     "Fuels & oil",
+     "$21.7bn"
+    ],
+    [
+     "Machinery",
+     "$8.1bn"
+    ],
+    [
+     "Cereals (wheat)",
+     "$6.8bn"
+    ],
+    [
+     "Electrical equipment",
+     "$6.6bn"
+    ],
+    [
+     "Vehicles",
+     "$5.9bn"
+    ]
+   ],
+   "tradeBalance": "-$49.6bn goods trade 2025 (exports $51.4bn, imports $101.0bn); imports are double exports; falling gas output turned Egypt into an LNG importer",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "INSTANT PAYMENTS · STATE RAIL",
+     "name": "InstaPay",
+     "text": "~22M registered users on the Central Bank's instant-payment network."
+    },
+    {
+     "tag": "MOBILE MONEY",
+     "name": "Vodafone Cash",
+     "text": "Leads 57M mobile wallets: 53% of wallets, 77% of wallet value (H1 2026)."
+    },
+    {
+     "tag": "BILLS & PAYMENTS",
+     "name": "Fawry",
+     "text": "54.1M users and 300k+ cash points; profitable and listed on the EGX."
+    },
+    {
+     "tag": "LENDING & WALLET",
+     "name": "MNT-Halan",
+     "text": "Unicorn; first independent e-wallet licence from the CBE. Paymob runs merchant payments."
+    },
+    {
+     "tag": "INVESTING APP",
+     "name": "Thndr",
+     "text": "A stock brokerage with 1M+ active users, not a robo-advisor."
+    },
+    {
+     "tag": "NEOBANKS & ROBO-ADVISORS",
+     "name": "The gaps",
+     "text": "One licensed digital bank (onebank, Banque Misr), not yet launched. No licensed robo-advisor."
+    }
+   ],
+   "regulationRead": "8/10 (8 of 10 meter blocks filled, Light → Tight) · \"Tightly regulated\"",
+   "stability": "Political stability, World Bank WGI 2024: -0.98 (scale -2.5 to +2.5), about 176th of 207; stable under a strong executive, but war in Gaza and Sudan, a divided Libya and Red Sea attacks on its borders",
+   "business": "Heritage 2026 Index of Economic Freedom: 50.3, \"Mostly unfree\", 146th · Business freedom 35.5; World Bank B-READY has not scored Egypt yet (joins the 2026 round)",
+   "hub": {
+    "city": "Cairo",
+    "airport": "Cairo Intl (no IATA code shown)"
+   },
+   "destinations": {
+    "Africa": 27,
+    "Europe": 44,
+    "Middle East": 29,
+    "Americas": 5,
+    "Asia": 14,
+    "Oceania": 0,
+    "total": 119
+   },
+   "airportFacts": [
+    "30.9M passengers at Cairo Intl (2025)",
+    "EgyptAir: 71 aircraft, 28 on order",
+    "* = seasonal route"
+   ],
+   "takeaways": [
+    [
+     "Its diaspora pays the bills.",
+     "Remittances ($47.3bn) are ~2.5x tourism and ~10x the Suez Canal."
+    ],
+    [
+     "Canal and gas are the weak spots.",
+     "Suez income is about half its peak; Egypt now imports gas."
+    ],
+    [
+     "Payments boom, neobanks wait.",
+     "57M wallets and 22M InstaPay users, one unlaunched digital bank."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users (% of population), via worldstats.io",
+    "Source: World Bank internet users (% of population) via worldstats.io; Africa avg 43.1%, world avg 70.9%",
+    "Source: CAPMAS via Egypt Today (Sep 2026); DataReportal Digital 2026; IMF WEO Oct 2026 via Worldometer; The National (Oct 2026)",
+    "Source: UN Comtrade via Trading Economics (2025); Egypt Agriculture Ministry via Zawya",
+    "Source: UN Comtrade via Trading Economics (2025); JODI via Zawya (gas)",
+    "Source: CBE via Egypt Today & Zawya (2026); TechCabal; allbusiness.africa; Launchbase Africa; MENA Startup Digest",
+    "Source: Al Tamimi (CBE digital-bank rules); Chambers FinTech 2026: Egypt; Daily News Egypt (wallet limits); Launchbase Africa",
+    "Source: World Bank WGI 2024 via TheGlobalEconomy; Heritage Foundation 2026 Index of Economic Freedom; World Bank B-READY",
+    "Source: Wikipedia: Cairo International Airport (airlines & destinations, passengers), EgyptAir (fleet); Roame & AeroRoutes schedules"
+   ],
+   "gdpValue": 4024,
+   "video": "videos/day08.mp4",
+   "thumb": "thumbs/day08.jpg",
+   "accent": "#CB0F23"
+  },
+  {
+   "n": 9,
+   "country": "Mauritius",
+   "internetPct": 73.3,
+   "population": "1,241,856 (31 Dec 2025)",
+   "gdpPerCapita": "$12,935 (2025, USD; IMF WEO); 2026 proj. $13,671",
+   "headline": {
+    "exports": "Tuna, sugar and shirts",
+    "imports": "It imports 3x what it exports",
+    "fintech": "Money moves bank-to-bank",
+    "different": "Bank-led, not telco-led",
+    "stability": "Voters fire governments, peacefully",
+    "map": "35 cities, nonstop"
+   },
+   "exportsTotal": "Rs 107.6bn (all goods exports, 2025)",
+   "topExports": [
+    [
+     "Fish preparations (canned tuna)",
+     "$254m"
+    ],
+    [
+     "Sugar & confectionery",
+     "$194m"
+    ],
+    [
+     "Apparel, woven",
+     "$142m"
+    ],
+    [
+     "Apparel, knitted",
+     "$125m"
+    ],
+    [
+     "Live animals",
+     "$123m"
+    ]
+   ],
+   "exportCallout": "The bigger earner is tourism: Rs 100bn+ in 2025 receipts (+10%) from 1.44 million visitors, about the same as all goods exports (Rs 107.6bn).",
+   "topImports": [
+    [
+     "Mineral fuels & oil",
+     "$1,597m"
+    ],
+    [
+     "Vehicles",
+     "$717m"
+    ],
+    [
+     "Machinery",
+     "$476m"
+    ],
+    [
+     "Electrical machinery",
+     "$423m"
+    ]
+   ],
+   "tradeBalance": "-Rs 207.9bn goods deficit (exports Rs 107.6bn vs imports Rs 315.5bn, 2025)",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "BANK APP + WALLET",
+     "name": "MCB Juice",
+     "text": "~650k users (Sep 2025) — about half the population. Tap-to-pay with NFC, face-ID approval."
+    },
+    {
+     "tag": "TELCO PAYMENTS APP",
+     "name": "Blink by Emtel",
+     "text": "Launched May 2022. Pays straight from your bank account by QR or phone number."
+    },
+    {
+     "tag": "NATIONAL RAILS",
+     "name": "MauCAS + IPS",
+     "text": "Bank of Mauritius switch: instant transfers between all banks and wallets, 24/7, with aliases."
+    },
+    {
+     "tag": "CRYPTO CUSTODY",
+     "name": "MindEx",
+     "text": "First virtual-asset provider licensed by the FSC (Dec 2022)."
+    },
+    {
+     "tag": "WHAT'S MISSING",
+     "name": "No digital-only neobank found licensed; No mass-market robo-advisor found",
+     "text": "Both licences exist: BoM digital-bank regime (2020 law; Rs 200m start-up capital) and the FSC robo-advice licence (2021). Jan 2026: BoM warned a \"Tranz Digital Bank\" was not licensed."
+    }
+   ],
+   "regulationRead": "7/10 · tight",
+   "stability": "World Bank WGI political stability 81.9/100, #48 of 207 countries (latest score)",
+   "business": "World Bank B-READY 2024: Operational efficiency 69.8 (2nd in Africa); Quality of public services 56.3 (3rd in Africa)",
+   "hub": {
+    "city": "Plaine Magnon",
+    "airport": "SSR Airport (MRU)"
+   },
+   "destinations": {
+    "Africa": 8,
+    "Europe": 18,
+    "Middle East": 3,
+    "Americas": 0,
+    "Asia": 5,
+    "Oceania": 1,
+    "total": 35
+   },
+   "airportFacts": [
+    "1.41M tourists arrived by air in 2025",
+    "3.88M airport passengers in 2019 (latest published)",
+    "26 airlines fly scheduled or charter",
+    "12 Air Mauritius jets & props: 4 A350, 4 A330, 4 ATR (Oct 2025)"
+   ],
+   "takeaways": [
+    [
+     "73% online",
+     "above the world average, #9 in Africa"
+    ],
+    [
+     "Tourism ≈ all goods exports",
+     "Rs 100bn+ in receipts vs Rs 107.6bn of goods"
+    ],
+    [
+     "35 nonstop cities",
+     "18 of them in Europe; 23 year-round"
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users (% of population), via worldstats.io, Oct 2026",
+    "Source: Statistics Mauritius (Mar 2026, via L'Express/AllAfrica); IMF World Economic Outlook",
+    "Source: Statistics Mauritius via CareEdge Africa External Trade report (Sep 2026); L'Express/AllAfrica (Jan 2026)",
+    "Source: Statistics Mauritius via CareEdge Africa External Trade Sector report, Sep 2026",
+    "Source: MCB (Sep 2025); ICT.io (May 2022); TransFi; ITWeb (Dec 2022); Bank of Mauritius; FSC Mauritius; our check, Oct 2026",
+    "Source: Bank of Mauritius; FSC Mauritius (VAITOS Act 2021, robo-advice rules 2021); meter is our editorial judgement",
+    "Source: World Bank WGI via Statistics of the World; Africanews/Reuters (Nov 2024); World Bank B-READY 2024",
+    "Source: Wikipedia SSR airport \"Airlines and destinations\" (Oct 2026); ch-aviation (Oct 2025); L'Express/AllAfrica (Sep 2026)",
+    "Source: All figures as cited in sections 01–08"
+   ],
+   "gdpValue": 12935,
+   "video": "videos/day09.mp4",
+   "thumb": "thumbs/day09.jpg",
+   "accent": "#D22737"
+  },
+  {
+   "n": 10,
+   "country": "Ghana",
+   "internetPct": 72.2,
+   "population": "35.1M (2025, World Bank WDI mid-year estimate)",
+   "gdpPerCapita": "$3,271 (2025, US$; IMF WEO Apr 2026); 2026 forecast $3,314 · 18th in Africa",
+   "headline": {
+    "exports": "Gold earns 64% of exports",
+    "imports": "Fuel tops the import bill",
+    "fintech": "Mobile money runs the show",
+    "different": "Wallets, not neobanks",
+    "stability": "Steady votes, slow paperwork",
+    "map": "30 cities, nonstop"
+   },
+   "exportsTotal": "US$31.1 billion (2025; 2024: $19.1bn)",
+   "topExports": [
+    [
+     "Gold",
+     "$20.0bn"
+    ],
+    [
+     "Cocoa",
+     "$3.8bn"
+    ],
+    [
+     "Other",
+     "$3.6bn"
+    ],
+    [
+     "Crude oil",
+     "$2.6bn"
+    ]
+   ],
+   "exportCallout": "Gold, 2024 to 2025: nearly doubled in a year, from $10.3bn to $20.0bn.",
+   "topImports": [
+    [
+     "Diesel",
+     "GH¢28.5bn"
+    ],
+    [
+     "Petrol",
+     "GH¢23.2bn"
+    ],
+    [
+     "Used cars, 1.5–3 L",
+     "GH¢9.3bn"
+    ],
+    [
+     "Crude oil",
+     "GH¢5.8bn"
+    ],
+    [
+     "Cement clinker",
+     "GH¢4.8bn"
+    ]
+   ],
+   "tradeBalance": "+$13.7bn surplus, gold-driven (2025, US$: exports $31.1bn, imports $17.4bn); total imports GH¢253.2bn",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "MOBILE MONEY",
+     "name": "MTN MoMo",
+     "text": "19.3M active users, 2025. GH¢4.1 trillion moved in 2025 (+54%). Run by MobileMoney Ltd, MTN's fintech arm."
+    },
+    {
+     "tag": "RIVALS & RAILS",
+     "name": "Telecel Cash, AT Money",
+     "text": "2018: wallets interoperable. GhIPSS links every wallet and bank account — send across networks in one step."
+    },
+    {
+     "tag": "PAYMENTS",
+     "name": "Zeepay",
+     "text": "Revoked: e-money licence, Jul 2026. BoG pulled the licence after wallets weren't fully backed by cash. The watchdog bites."
+    },
+    {
+     "tag": "THE GAPS",
+     "name": "Neobanks & robo-advisors",
+     "text": "None: licensed digital bank. BoG's digital-banking framework is still at consultation. No robo-advisor; apps sell T-bills and funds."
+    }
+   ],
+   "regulationRead": "7/10",
+   "stability": "4th peaceful handover between parties since 1992 (Mahama, NDC, won Dec 2024 with 56.4%); BTI 2026 governance: 6.41 — 20th of 137",
+   "business": "World Bank B-READY 2024 (0–100): Regulatory framework 67.0; Operational efficiency 54.4; Public services 47.7. B-READY 2025: topics range from 34% (competition) to 72% (financial services); customs takes 9–23 days",
+   "hub": {
+    "city": "Accra",
+    "airport": "Kotoka Intl (ACC)"
+   },
+   "destinations": {
+    "Africa": 17,
+    "Europe": 6,
+    "Middle East": 4,
+    "Americas": 3,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 30
+   },
+   "airportFacts": [
+    "3.62M passengers via Kotoka Intl, 2025",
+    "No flag carrier: Africa World Airlines (8 aircraft) is the home hub airline",
+    "* dashed = seasonal · London = Heathrow + Gatwick"
+   ],
+   "takeaways": [
+    [
+     "Gold boom.",
+     "Exports jumped 63% to US$31.1bn in 2025; gold alone was $20bn."
+    ],
+    [
+     "Wallet nation.",
+     "19.3M MTN MoMo users and interoperable wallets — but no licensed digital bank yet."
+    ],
+    [
+     "Well connected.",
+     "30 nonstop cities from Accra, including New York, Washington and Atlanta."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users %, via worldstats.io (Oct 2026)",
+    "Source: World Bank internet users % via worldstats.io (Oct 2026); Africa avg 43.1%, world avg 70.9%",
+    "Source: World Bank WDI via FRED (population 2025); IMF World Economic Outlook, Apr 2026 (GDP per capita), via statisticstimes.com",
+    "Source: Bank of Ghana, Summary of Economic and Financial Data (Jan 2026), via Modern Ghana",
+    "Source: Ghana Statistical Service, 2025 trade report (via Modern Ghana / Citi Newsroom); Bank of Ghana (US$ totals)",
+    "Source: Citi Newsroom (MML 2025 results; Zeepay, Jul 2026); AFI (GhIPSS interoperability, 2018); MyJoyOnline (BoG, Jul 2026); Mondaq",
+    "Source: Mondaq (Act 987, sandbox); GNA (E-Levy repeal, Mar 2025); Graphic Online (digital credit directive, Sep 2025); meter = our read",
+    "Source: BTI 2026 Ghana report; World Bank B-READY 2024 (via Citi Newsroom) and B-READY 2025 briefing, Feb 2026",
+    "Source: FlightConnections & Aerocorner route lists (Oct 2026); Wikipedia (2025 passengers); ch-aviation (AWA fleet); international routes only"
+   ],
+   "gdpValue": 3271,
+   "video": "videos/day10.mp4",
+   "thumb": "thumbs/day10.jpg",
+   "accent": "#006B3C"
+  },
+  {
+   "n": 11,
+   "country": "Gabon",
+   "internetPct": 68.7,
+   "population": "2.61M (UN estimate, 2025)",
+   "gdpPerCapita": "$8,219 (US$, 2024; total GDP US$17.6 bn; Banque de France CEMAC report / BEAC data)",
+   "headline": {
+    "exports": "Oil pays the bills",
+    "imports": "Kit for the oil fields",
+    "fintech": "Money moves by phone",
+    "different": "Not M-Pesa, not Revolut",
+    "stability": "From coup to ballot box",
+    "map": "19 cities, nonstop"
+   },
+   "exportsTotal": "5,824 bn FCFA (total goods exports 2024)",
+   "topExports": [
+    [
+     "Crude oil",
+     "3,686 bn (63%)"
+    ],
+    [
+     "Manganese",
+     "848 bn (15%)"
+    ],
+    [
+     "Timber",
+     "397 bn (7%)"
+    ],
+    [
+     "Everything else",
+     "893 bn (15%)"
+    ]
+   ],
+   "exportCallout": "11.5 Mt of oil pumped in 2024; fields are maturing, so output is expected to slide (outlook: Coface country risk file, 2026).",
+   "topImports": [
+    [
+     "Special-purpose ships",
+     "21.3%"
+    ],
+    [
+     "Refined petroleum",
+     "5.0%"
+    ],
+    [
+     "Cars",
+     "2.5%"
+    ],
+    [
+     "Medicines",
+     "2.2%"
+    ],
+    [
+     "Poultry meat",
+     "2.2%"
+    ]
+   ],
+   "tradeBalance": "+3,505 bn FCFA surplus (2024: exports 5,824 vs imports 2,319)",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "MOBILE MONEY",
+     "name": "Airtel Money",
+     "text": "Separate company since 2012; payment-institution licence from Nov 2022. Mastercard link via Airtel Africa."
+    },
+    {
+     "tag": "MOBILE MONEY",
+     "name": "Moov Money",
+     "text": "Moov Africa Gabon Telecom's wallet. The e-money licence is held by partner bank UGB (Attijariwafa)."
+    },
+    {
+     "tag": "2024 MARKET",
+     "name": "4.55 M wallets",
+     "text": "1.64 M active. Revenue 50.9 bn FCFA (+16%). 59,398 points of sale. Two operators share it."
+    },
+    {
+     "tag": "INFRASTRUCTURE",
+     "name": "Payment rails",
+     "text": "GIMACPAY links wallets & banks across CEMAC. ClikPay: first fintech payment-institution licence (2023). SingPay, pawaPay: payment APIs."
+    },
+    {
+     "tag": "WHAT'S MISSING",
+     "name": "No neobank. No robo-advisor.",
+     "text": "None licensed or launched locally in our sources · fewer than 10–15 fintechs in total. ~30% of adults hold a bank account."
+    }
+   ],
+   "regulationRead": "Fairly tight (our read · slow licensing, strict KYC); no numeric score shown",
+   "stability": "Fragile States Index 2024: 70.2, rank 79 of 179 (higher = more fragile); Coface country risk C",
+   "business": "Coface business climate D (scale A1 to E); World Bank B-READY: not scored yet — Gabon is slated for the 2026 edition",
+   "hub": {
+    "city": "Libreville",
+    "airport": "Léon-Mba Intl (LBV)"
+   },
+   "destinations": {
+    "Africa": 18,
+    "Europe": 1,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 19
+   },
+   "airportFacts": [
+    "750,000 passengers (2024)",
+    "6th busiest airport in Central Africa",
+    "FlyGabon (56% state): 5 ATR 72-600 + new ATR 42-600",
+    "A320 / CRJ900 on its Lagos route"
+   ],
+   "takeaways": [
+    [
+     "Oil is 63% of exports",
+     "and the fields are ageing — manganese and timber are the hedge."
+    ],
+    [
+     "The phone is the bank",
+     "1.64 M active wallets; only ~30% of adults have a bank account."
+    ],
+    [
+     "A regional air hub",
+     "18 of 19 nonstop cities are in Africa; Paris is the one long-haul link."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Series: Africa's 54 countries, highest internet penetration first",
+    "Source: World Bank internet users % via worldstats.io (Oct 2026); DataReportal Digital 2026: Gabon (Oct 2025 data)",
+    "Sources: UN population via DataReportal (Oct 2025); Banque de France, CEMAC monetary zone annual report 2024 – Gabon (BEAC data)",
+    "Source: Banque de France, CEMAC monetary zone annual report 2024 – Gabon (balance of payments, goods exports FOB, billion FCFA)",
+    "Outlook: Coface country risk file, 2026",
+    "Sources: Banque de France CEMAC report 2024 – Gabon (bn FCFA, FOB); product shares 2023: OEC via Crédit Agricole country profile",
+    "Sources: FinDev Gateway / UNCDF Gabon diagnostic 2023; Gabon Media Time (Aug 2025, operator data); The Fintech Times (2026); pawaPay; We Are Tech Africa",
+    "Sources: FinDev Gateway / UNCDF diagnostic 2023; CEMAC payment services regulation 2018; Droit Médias Finance on the 2026 draft reform",
+    "Sources: Coface country risk file (2026); Fund for Peace Fragile States Index 2024; World Bank B-READY covered-economies list",
+    "Sources: FlightConnections & FlightsFrom route lists, Wikipedia (Léon-Mba Intl), Gabonreview, ATR; traffic: AfroVisualData via Gabon Media Time. Domestic & suspended routes excluded.",
+    "Full source list in the message that came with this video"
+   ],
+   "gdpValue": 8219,
+   "video": "videos/day11.mp4",
+   "thumb": "thumbs/day11.jpg",
+   "accent": "#009D5D"
+  },
+  {
+   "n": 12,
+   "country": "Djibouti",
+   "internetPct": 65.3,
+   "population": "1.18M (2025), growing about 1.4% a year",
+   "gdpPerCapita": "$4,251 (2025 est.), up from $3,182 in 2020 (IMF)",
+   "headline": {
+    "exports": "A port that re-exports",
+    "imports": "Fuel, food & fertiliser",
+    "fintech": "Two wallets, no neobanks",
+    "different": "Not M-Pesa, not Revolut",
+    "stability": "Calm, but one-man rule",
+    "map": "11 cities, nonstop"
+   },
+   "exportsTotal": "$5.2B (2024) goods exports; Ethiopia takes ~61% (imports panel shows exports $5.17B)",
+   "topExports": [
+    [
+     "Palm oil (re-exported)",
+     "55.2%"
+    ],
+    [
+     "Chlorides (mainly salt)",
+     "16.6%"
+    ],
+    [
+     "Seed oils",
+     "4.9%"
+    ],
+    [
+     "Flax yarn",
+     "2.5%"
+    ],
+    [
+     "Live cattle",
+     "1.9%"
+    ]
+   ],
+   "exportCallout": "The real business: ~70% of GDP comes from ports and logistics, over 90% of Ethiopia's trade moves through Djibouti, and >$125M a year in rent from foreign military bases (US, France, China, Japan and others).",
+   "topImports": [
+    [
+     "Refined fuel",
+     "10.6%"
+    ],
+    [
+     "Palm oil",
+     "7.0%"
+    ],
+    [
+     "Fertilisers",
+     "6.3%"
+    ],
+    [
+     "Cars",
+     "3.8%"
+    ],
+    [
+     "Raw sugar",
+     "3.4%"
+    ]
+   ],
+   "tradeBalance": "-$0.38B (goods trade 2024: exports $5.17B, imports $5.55B)",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "MOBILE MONEY",
+     "name": "D-Money",
+     "text": "Run by Djibouti Telecom, the state telco. Launched 2020. 300+ agents; cap 1M DJF/day."
+    },
+    {
+     "tag": "MOBILE WALLET",
+     "name": "WAAFI",
+     "text": "Salaam African Bank subsidiary. Launched Jan 2022. Links to Visa and Mastercard."
+    },
+    {
+     "tag": "BANKING",
+     "name": "13 banks",
+     "text": "10 conventional + 3 Islamic. Only 32.7% banked (end-2023). Cash still dominates."
+    },
+    {
+     "tag": "NOT HERE (YET)",
+     "name": "Gaps",
+     "text": "No licensed neobank. No robo-advisor. No fintech sandbox found."
+    }
+   ],
+   "regulationRead": "Fairly tight (our read; Light-to-Strict bar, no numeric score shown)",
+   "stability": "Political stability 57/100 (World Bank WGI score; rank 151 of 207); Guelleh in power since 1999, 97% official vote share for 6th term (April 2026)",
+   "business": "Coface business climate C (scale A1 best to E; country risk also C); B-READY n/a — not in the 2024/25 reports, joins the 2026 cycle",
+   "hub": {
+    "city": "Djibouti City",
+    "airport": "Djibouti-Ambouli (JIB)"
+   },
+   "destinations": {
+    "Africa": 6,
+    "Europe": 2,
+    "Middle East": 3,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 11
+   },
+   "airportFacts": [
+    "426,854 passengers at Djibouti-Ambouli (2019)",
+    "~75% of airport traffic is military",
+    "3 jets — Air Djibouti: 2 Embraer E145 + 1 VIP 727"
+   ],
+   "takeaways": [
+    [
+     null,
+     "A port economy: logistics make up ~70% of GDP, and Ethiopia depends on it."
+    ],
+    [
+     null,
+     "Fintech is two interoperable wallets and 13 banks; no neobanks or robo-advisors yet."
+    ],
+    [
+     null,
+     "11 nonstop cities: 6 in Africa, 3 in the Middle East, plus Paris and Istanbul."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "Source: World Bank internet users % via worldstats.io (Oct 2026); DataReportal Digital 2025: Djibouti",
+    "Source: World Bank (via FRED) population 2025; IMF World Economic Outlook GDP per capita; Coface (Nov 2025); DataReportal (2025)",
+    "Source: OEC 2022 product shares & partner shares via Bank of Scotland Trade; WTO/World Bank totals; Coface (Nov 2025)",
+    "Source: OEC 2022 product shares via Bank of Scotland Trade; trade totals WTO / World Bank (2024)",
+    "Source: UNCDF Djibouti Infrastructure Assessment (2023); DG Trésor (France), Djibouti banking sector",
+    "Source: UNCDF (2023); Banque Centrale de Djibouti; Financial Afrik interview with BCD governor (Apr 2025)",
+    "Source: Africanews (Apr 2026); Coface country file (Nov 2025); World Bank WGI; World Bank B-READY covered economies",
+    "Source: Wikipedia (Djibouti–Ambouli airport); FlightConnections JIB; DG Trésor (2019 pax); ch-aviation (Apr 2025). Jeddah partly seasonal"
+   ],
+   "gdpValue": 4251,
+   "video": "videos/day12.mp4",
+   "thumb": "thumbs/day12.jpg",
+   "accent": "#10AC28"
+  },
+  {
+   "n": 13,
+   "country": "Namibia",
+   "internetPct": 64.9,
+   "population": "3.11m (Oct 2025 est.; 3,022,401 in 2023 census)",
+   "gdpPerCapita": "US$4,876 (2025, World Bank, current US$)",
+   "headline": {
+    "exports": "Diamonds, uranium & fish",
+    "imports": "Fuel tops the import bill",
+    "fintech": "Banks run the wallets",
+    "different": "Bank-first, sandbox-led",
+    "stability": "Calm politics, mid-table rules",
+    "map": "17 cities, nonstop"
+   },
+   "exportsTotal": "US$6.54bn (2025)",
+   "topExports": [
+    [
+     "Gems & precious metals (diamonds, gold)",
+     "$1.9bn"
+    ],
+    [
+     "Ores (mainly uranium)",
+     "$1.8bn"
+    ],
+    [
+     "Fish",
+     "$757m"
+    ],
+    [
+     "Mineral fuels",
+     "$270m"
+    ],
+    [
+     "Copper",
+     "$227m"
+    ]
+   ],
+   "exportCallout": "Namibian diamonds averaged $417/carat in 2024, ~5x the global average; world #3 uranium producer",
+   "topImports": [
+    [
+     "Refined petroleum",
+     "$1.49bn"
+    ],
+    [
+     "Copper ores & concentrates",
+     "$247m"
+    ],
+    [
+     "Rough diamonds",
+     "$107m"
+    ],
+    [
+     "Diesel trucks",
+     "$105m"
+    ],
+    [
+     "Solar cells & semiconductors",
+     "$86m"
+    ]
+   ],
+   "tradeBalance": "-US$1.45bn (2025), narrower than about -$2.3bn in 2024",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Bank e-wallets",
+     "name": "EasyWallet · PayPulse",
+     "text": "Bank Windhoek and Standard Bank wallets"
+    },
+    {
+     "tag": "Mobile money",
+     "name": "MTC Maris",
+     "text": "500,000+ customers registered since Jan 2026"
+    },
+    {
+     "tag": "Payments",
+     "name": "PayToday · DPO Pay",
+     "text": "Instant payment system live June 2026"
+    },
+    {
+     "tag": "Gaps",
+     "name": "Not here (yet)",
+     "text": "No licensed neobank, no robo-advisor"
+    }
+   ],
+   "regulationRead": "7/10",
+   "stability": "WGI political stability 78.6/100 (2025, #64 of 207)",
+   "business": "B-READY 2025: regulatory framework 64, public services 45, operational efficiency 49",
+   "hub": {
+    "city": "Windhoek",
+    "airport": "Hosea Kutako Intl (WDH)"
+   },
+   "destinations": {
+    "Africa": 14,
+    "Europe": 3,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 17
+   },
+   "airportFacts": [
+    "1.26m passengers in 2024 (1.68m in 2019)",
+    "No flag carrier since Air Namibia folded (2021)",
+    "FlyNamibia: 30+ aircraft"
+   ],
+   "takeaways": [
+    [
+     "Minerals pay the way",
+     "Diamonds, gold and uranium ores are ~58% of exports."
+    ],
+    [
+     "Fintech is bank-led",
+     "Bank wallets first; instant payments only went live in June 2026."
+    ],
+    [
+     "Flights stay regional",
+     "14 of 17 nonstop cities are in Africa; Europe via Frankfurt, Munich, Zurich."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "DataReportal Digital 2026",
+    "World Bank via FRED",
+    "WorldsTopExports",
+    "World Bank WITS",
+    "Bank of Namibia",
+    "World Bank B-READY 2025",
+    "Wikipedia: Hosea Kutako International Airport"
+   ],
+   "gdpValue": 4876,
+   "video": "videos/day13.mp4",
+   "thumb": "thumbs/day13.jpg",
+   "accent": "#003580"
+  },
+  {
+   "n": 14,
+   "country": "Eswatini",
+   "internetPct": 63.4,
+   "population": "about 1.3m (World Bank)",
+   "gdpPerCapita": "about US$4,300 (2025 est., World Bank)",
+   "headline": {
+    "exports": "Soda syrup and sugar pay the bills",
+    "imports": "Fuel tops the shopping list",
+    "fintech": "Mobile money did the heavy lifting",
+    "different": "Interoperable by design",
+    "stability": "Africa's only absolute monarchy",
+    "map": "5 cities, nonstop"
+   },
+   "exportsTotal": "US$2.10bn (2023)",
+   "topExports": [
+    [
+     "Flavour concentrates & essential oils",
+     "$586m"
+    ],
+    [
+     "Sugar",
+     "$477m"
+    ],
+    [
+     "Other chemical products",
+     "$282m"
+    ],
+    [
+     "Clothing",
+     "$145m"
+    ],
+    [
+     "Wood & wood products",
+     "$135m"
+    ]
+   ],
+   "exportCallout": "Coca-Cola soft-drink concentrate made in Eswatini out-earns even sugar; 67.5% of exports go to South Africa",
+   "topImports": [
+    [
+     "Fuels & oil",
+     "$381m"
+    ],
+    [
+     "Machinery",
+     "$121m"
+    ],
+    [
+     "Vehicles & parts",
+     "$119m"
+    ],
+    [
+     "Electrical equipment",
+     "$88m"
+    ],
+    [
+     "Cereals",
+     "$86m"
+    ]
+   ],
+   "tradeBalance": "+US$57m surplus (2023); 73.8% of imports from South Africa",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "MTN MoMo",
+     "text": "Telco-backed wallet, run apart from the network"
+    },
+    {
+     "tag": "Mobile money",
+     "name": "InstaCash",
+     "text": "Non-telco, Kenyan-built, 200k+ users"
+    },
+    {
+     "tag": "Payment rail",
+     "name": "Eswatini Payment Switch",
+     "text": "8 banks and wallets on one interoperable switch"
+    },
+    {
+     "tag": "Gaps",
+     "name": "Not here (yet)",
+     "text": "No licensed neobank, no robo-advisor"
+    }
+   ],
+   "regulationRead": "Moderate–tight (about 6/10): Central Bank of Eswatini, Payment Systems Act 2023, sandbox",
+   "stability": "WGI political stability rank 160 of 207 (2025); calm since the 2023 election after 2021 unrest",
+   "business": "B-READY: 65.5 for business-location rules; Economic Freedom 2026: 57.5 (#104)",
+   "hub": {
+    "city": "Manzini",
+    "airport": "King Mswati III Intl (SHO)"
+   },
+   "destinations": {
+    "Africa": 5,
+    "Europe": 0,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 5
+   },
+   "airportFacts": [
+    "Eswatini Air: 2 × Embraer ERJ-145 (since Mar 2023)",
+    "Airlink also flies to Johannesburg",
+    "Built for 360,000 passengers a year; no traffic figures published"
+   ],
+   "takeaways": [
+    [
+     "Fizz and sugar",
+     "Coca-Cola concentrate and sugar earn about half of exports; South Africa is customer and supplier."
+    ],
+    [
+     "Mobile money first",
+     "Financial inclusion reached 87%, with interoperability written into the rules; no neobank yet."
+    ],
+    [
+     "Flights stay local",
+     "Only 5 nonstop cities, all in southern Africa; from Mauritius, connect via Johannesburg."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "World Bank country overview",
+    "UN Comtrade via TrendEconomy",
+    "World Bank WITS",
+    "TechCabal",
+    "Central Bank of Eswatini (BIS)",
+    "US State Dept 2026 Investment Climate",
+    "Wikipedia: King Mswati III International Airport",
+    "AeroRoutes"
+   ],
+   "gdpValue": 4300,
+   "video": "videos/day14.mp4",
+   "thumb": "thumbs/day14.jpg",
+   "accent": "#B10C0C"
+  },
+  {
+   "n": 15,
+   "country": "Equatorial Guinea",
+   "internetPct": 63.3,
+   "population": "about 1.94m (World Bank, 2025)",
+   "gdpPerCapita": "about US$7,850 (2025 est., IMF WEO)",
+   "headline": {
+    "exports": "97% oil & gas",
+    "imports": "Oil-field kit plus food and drink",
+    "fintech": "Mobile money has barely started",
+    "different": "Bank-led, state-run, tiny",
+    "stability": "Stable — because one family rules",
+    "map": "9 cities, nonstop"
+   },
+   "exportsTotal": "US$4.47bn (goods, 2024)",
+   "topExports": [
+    [
+     "Crude oil",
+     "$2.26bn"
+    ],
+    [
+     "Liquefied natural gas",
+     "$1.61bn"
+    ],
+    [
+     "Methanol",
+     "$225m"
+    ],
+    [
+     "Propane",
+     "$174m"
+    ],
+    [
+     "Butanes",
+     "$70m"
+    ],
+    [
+     "Rough timber",
+     "$35m"
+    ]
+   ],
+   "exportCallout": "Crude output ~57,000 barrels a day in 2024 vs ~321,000 at the 2004 peak; gas from Punta Europa on Bioko now carries much of the load",
+   "topImports": [
+    [
+     "Tugs & pusher craft",
+     "$91m"
+    ],
+    [
+     "Frozen chicken cuts",
+     "$31m"
+    ],
+    [
+     "Drilling platforms",
+     "$31m"
+    ],
+    [
+     "Beer",
+     "$27m"
+    ],
+    [
+     "Steel tubing",
+     "$22m"
+    ],
+    [
+     "Sweetened drinks",
+     "$21m"
+    ]
+   ],
+   "tradeBalance": "+US$3.46bn goods surplus (2024); imports US$1.02bn, exports ~4.4× imports",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "Muni Dinero & BGFIMoney",
+     "text": "E-wallets, transfers and bill payments since 2023"
+    },
+    {
+     "tag": "Scale",
+     "name": "50,224 accounts",
+     "text": "Active mobile-money accounts in 2024, lowest in CEMAC"
+    },
+    {
+     "tag": "State telco",
+     "name": "GETESA Money",
+     "text": "Announced 2019, relaunched May 2026; phase 1 due within 12 months"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No neobank, no robo",
+     "text": "No licensed neobank, robo-advisor or notable local fintech start-up found"
+    }
+   ],
+   "regulationRead": "Strict on paper, thin in practice (about 7/10): BEAC + COBAC, 2018 CEMAC payments regulation; sandbox only in a draft reform due 1 Jan 2027",
+   "stability": "Freedom House 2026: 5/100, Not Free; Obiang in power since 1979, son Teodorín heir apparent; government resigned June 2026",
+   "business": "No B-READY score; Heritage Index of Economic Freedom 2026: 47.4 “Repressed” (#159; 40th of 47 in Sub-Saharan Africa)",
+   "hub": {
+    "city": "Malabo",
+    "airport": "Malabo Intl (SSG)"
+   },
+   "destinations": {
+    "Africa": 9,
+    "Europe": 0,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 9
+   },
+   "airportFacts": [
+    "~237k passengers (2020, INEGE)",
+    "Lufthansa: Frankfurt–Lagos–Malabo, 6×/week from 25 Oct 2026; Air France reaches Paris via Douala",
+    "Ceiba (state airline): ageing fleet; talks for 4–5 new ATRs"
+   ],
+   "takeaways": [
+    [
+     "A shrinking petro-state",
+     "Crude down to ~57k barrels a day from 321k; the economy shrank ~6.4% in 2025."
+    ],
+    [
+     "Cash still rules",
+     "50k mobile-money accounts, CEMAC’s lowest; the state wallet is still pending."
+    ],
+    [
+     "Africa-only nonstop map",
+     "9 cities, all in Africa — Paris or Frankfurt means a stop in Douala or Lagos."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "World Bank (population)",
+    "IMF World Economic Outlook",
+    "IMF press release 26/035",
+    "Harvard Growth Lab Atlas of Economic Complexity",
+    "World Bank EG Economic Update 2025",
+    "BEAC via EcoMatin",
+    "Electronic Payments International",
+    "Business in Cameroon",
+    "Droit Médias Finance",
+    "BTI 2026",
+    "Freedom House 2026",
+    "Heritage Foundation 2026 Index",
+    "The Rio Times",
+    "Wikipedia: 2026 in Equatorial Guinea",
+    "Wikipedia: Malabo International Airport",
+    "aviability.com",
+    "roame.travel",
+    "AeroRoutes",
+    "Sika Finance"
+   ],
+   "gdpValue": 7850,
+   "video": "videos/day15.mp4",
+   "thumb": "thumbs/day15.jpg",
+   "accent": "#3E9A00"
+  },
+  {
+   "n": 16,
+   "country": "Senegal",
+   "internetPct": 60.1,
+   "population": "about 18.9m (World Bank, 2025)",
+   "gdpPerCapita": "about US$1,955 (2025, World Bank)",
+   "headline": {
+    "exports": "Oil and gold now lead exports",
+    "imports": "Fuel, machines and grain",
+    "fintech": "Wave rewrote mobile money",
+    "different": "Not a telco, not a bank",
+    "stability": "A democracy under debt stress",
+    "map": "44 cities, nonstop"
+   },
+   "exportsTotal": "about US$10bn (goods, 2025)",
+   "topExports": [
+    [
+     "Oil & fuels",
+     "$4.3bn"
+    ],
+    [
+     "Gold & precious metals",
+     "$1.7bn"
+    ],
+    [
+     "Fish",
+     "$535m"
+    ],
+    [
+     "Inorganic chemicals",
+     "$463m"
+    ],
+    [
+     "Cement, salt & stone",
+     "$328m"
+    ]
+   ],
+   "exportCallout": "Exports jumped 51.8% in 2025 (CFA 3.91trn → 5.94trn) as crude oil, refined fuel and gold shipments surged",
+   "topImports": [
+    [
+     "Fuels & oils",
+     "$3.52bn"
+    ],
+    [
+     "Machinery",
+     "$1.00bn"
+    ],
+    [
+     "Cereals (rice, wheat)",
+     "$946m"
+    ],
+    [
+     "Vehicles",
+     "$739m"
+    ],
+    [
+     "Electrical equipment",
+     "$647m"
+    ]
+   ],
+   "tradeBalance": "Deficit −CFA 1.34trn (2025), down ~59% from −CFA 3.25trn (2024); imports US$11.9bn (2023)",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "Wave",
+     "text": "~80% of Senegal’s e-money balances (CFA 459bn of 571bn, Aug 2026); flat 1% fee to send"
+    },
+    {
+     "tag": "Telco wallets",
+     "name": "Orange Money · Mixx",
+     "text": "Orange claims ~19% of balances; Mixx by Yas is the former Free Money"
+    },
+    {
+     "tag": "Neobank",
+     "name": "Djamo",
+     "text": "Ivorian app now in Senegal: Visa cards, savings vaults; 1m+ users across both markets"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No licensed neobank, no robo",
+     "text": "No digital-only bank licence and no robo-advisor found"
+    }
+   ],
+   "regulationRead": "Tight, region-wide (7/10): BCEAO licenses for all 8 WAEMU states; e-money and payment-institution licences; PI-SPI instant payments since Sept 2025 with free P2P transfers, join deadline 30 June 2026",
+   "stability": "WGI political stability −0.23 (2024); peaceful 2024 handover to President Faye; PM Sonko sacked May 2026, economist Ahmadou Al Aminou Lo PM; debt 132% of GDP, IMF staff deal for $2.2bn (Sept 2026)",
+   "business": "World Bank B-READY 2025: 8th of 27 African economies (regulatory framework 5th, public services 10th, operational efficiency 5th)",
+   "hub": {
+    "city": "Dakar",
+    "airport": "Blaise Diagne Intl (DSS)"
+   },
+   "destinations": {
+    "Africa": 18,
+    "Europe": 23,
+    "Middle East": 1,
+    "Americas": 2,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 44
+   },
+   "airportFacts": [
+    "2.94m passengers at DSS in 2025",
+    "30 passenger airlines",
+    "Air Senegal: 7 aircraft incl. 3 A330neo"
+   ],
+   "takeaways": [
+    [
+     "Oil and gold reshaped trade",
+     "Exports +52% in 2025; the trade deficit shrank by ~59%."
+    ],
+    [
+     "Wave’s country",
+     "~80% of e-money balances on a flat 1% fee, under tight BCEAO rules."
+    ],
+    [
+     "Europe on a direct line",
+     "23 of 44 nonstop cities are in Europe, plus New York, Montréal and Dubai."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "World Bank data",
+    "IMF via Reuters",
+    "World's Top Exports",
+    "ANSD via Ecofin Agency",
+    "TrendEconomy / UN Comtrade",
+    "Commission bancaire UMOA via Senego",
+    "LaunchBase Africa",
+    "TechCrunch",
+    "TechCabal",
+    "The Paypers",
+    "World Bank WGI via TheGlobalEconomy",
+    "AP",
+    "Reuters via Polity",
+    "Le Soleil",
+    "Wikipedia: Blaise Diagne International Airport",
+    "APS / Air Senegal"
+   ],
+   "gdpValue": 1955,
+   "video": "videos/day16.mp4",
+   "thumb": "thumbs/day16.jpg",
+   "accent": "#00853F"
+  },
+  {
+   "n": 17,
+   "country": "São Tomé and Príncipe",
+   "internetPct": 59.1,
+   "population": "209,617 (2024 census, provisional, INE São Tomé)",
+   "gdpPerCapita": "about US$4,044 (2025, World Bank)",
+   "headline": {
+    "exports": "Cocoa pays the bills",
+    "imports": "Imports run 11× exports",
+    "fintech": "A card switch, not a wallet",
+    "different": "Built like Lisbon, not Nairobi",
+    "stability": "Free, but fractious",
+    "map": "4 cities, nonstop"
+   },
+   "exportsTotal": "US$7.7m (goods, Jan–May 2026), down 48% from $14.8m a year earlier",
+   "topExports": [
+    [
+     "Cocoa",
+     "$5.51m"
+    ],
+    [
+     "Palm oil",
+     "$1.92m"
+    ],
+    [
+     "Everything else",
+     "$0.27m"
+    ]
+   ],
+   "exportCallout": "Exports −48% vs Jan–May 2025 ($14.8m → $7.7m); cocoa ≈ 72% of the total and down 49% itself",
+   "topImports": [
+    [
+     "Consumer goods (incl. food)",
+     "$44.2m"
+    ],
+    [
+     "Petroleum products",
+     "$25.8m"
+    ],
+    [
+     "Capital goods",
+     "$14.7m"
+    ],
+    [
+     "Other",
+     "$3.1m"
+    ]
+   ],
+   "tradeBalance": "Deficit −US$80.1m (Jan–May 2026), up 14% from −$70.2m; full-year 2023: exports $17m vs imports $184m",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Payments rail",
+     "name": "Dobra24",
+     "text": "Interoperable ATM & POS network run by SPAUT; Visa accepted since 2021; SIBS (Portugal) runs the switch platform"
+    },
+    {
+     "tag": "Mobile banking",
+     "name": "BISTP Mobile",
+     "text": "App of BISTP, the only locally owned bank and the market leader"
+    },
+    {
+     "tag": "Banks",
+     "name": "Ecobank & co.",
+     "text": "Five banks with SWIFT codes: Afriland, BISTP, BGFI, Ecobank, Energy"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No neobank, no robo, no telco wallet",
+     "text": "No licensed neobank, no robo-advisor, no M-Pesa-style telco wallet at scale; 24% use digital finance, 78% own a phone"
+    }
+   ],
+   "regulationRead": "Tight on banks, thin on fintech (our read): Banco Central de STP regulates; mobile-money rules still pending; fintech incubator / sandbox since 2025",
+   "stability": "Freedom House 2026: 84/100, Free; PM Trovoada sacked Jan 2025 and ruling ADI split; Vila Nova re-elected with 55.9% (Jul 2026); hung parliament Sep 2026: MLSTP 24, ADI 23, MCI-PS/PUN 6, Basta 2",
+   "business": "Heritage Index of Economic Freedom 2026: 60.6, “moderately free”, #85 world, 5th of 47 in sub-Saharan Africa (B-READY covers STP only from the 2026 cycle; no score yet)",
+   "hub": {
+    "city": "São Tomé",
+    "airport": "São Tomé Intl (TMS)"
+   },
+   "destinations": {
+    "Africa": 3,
+    "Europe": 1,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 4
+   },
+   "airportFacts": [
+    "One 2,220 m runway",
+    "5 airlines: TAP, TAAG, ASKY, Afrijet, STP Airways",
+    "STP Airways flies a wet-leased EuroAtlantic 767; no passenger stats published"
+   ],
+   "takeaways": [
+    [
+     "Cocoa island",
+     "Jan–May 2026: $7.7m of exports against $87.8m of imports."
+    ],
+    [
+     "Switch, not wallet",
+     "Dobra24 is the rail; no neobank, robo-advisor or telco wallet at scale."
+    ],
+    [
+     "Lisbon lifeline",
+     "4 nonstop cities; Lisbon is the only one outside Africa."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "INE STP via Forbes África Lusófona",
+    "World Bank STP overview",
+    "The Fintech Times",
+    "Banco Central de STP",
+    "Trading Economics",
+    "Wikipedia",
+    "World Bank WITS",
+    "Téla Nón / SPAUT",
+    "Forbes Portugal",
+    "AFI interview with BCSTP",
+    "MFW4A",
+    "Freedom House FIW 2026",
+    "Rio Times",
+    "Heritage Foundation 2026",
+    "World Bank B-READY",
+    "Wikipedia: São Tomé International Airport",
+    "FlightConnections",
+    "turismo.gov.st",
+    "AeroRoutes"
+   ],
+   "gdpValue": 4044,
+   "video": "videos/day17.mp4",
+   "thumb": "thumbs/day17.jpg",
+   "accent": "#12AD2B"
+  },
+  {
+   "n": 18,
+   "country": "Botswana",
+   "internetPct": 57.5,
+   "population": "2.56M (2,562,122; 2025, World Bank)",
+   "gdpPerCapita": "US$7,778 (2025, World Bank)",
+   "headline": {
+    "exports": "Diamonds pay the bills",
+    "imports": "Fuel tops the import bill",
+    "fintech": "Wallets, not neobanks",
+    "different": "Ring-fenced telco wallets",
+    "stability": "Stable, and newly competitive",
+    "map": "5 cities, nonstop"
+   },
+   "exportsTotal": "Diamonds = 72.5% of 2025 goods exports (Bank of Botswana)",
+   "topExports": [
+    [
+     "Diamonds",
+     "P53.9bn"
+    ],
+    [
+     "Copper",
+     "P11.0bn"
+    ],
+    [
+     "Machinery & electrical",
+     "P3.1bn"
+    ],
+    [
+     "Salt & soda ash",
+     "P1.4bn"
+    ]
+   ],
+   "exportCallout": "Diamond rebound: P44bn in 2024 → P53.9bn in 2025, after the 2024 slump",
+   "topImports": [
+    [
+     "Fuel",
+     "P16.9bn"
+    ],
+    [
+     "Machinery & electrical",
+     "P14.8bn"
+    ],
+    [
+     "Food, drinks & tobacco",
+     "P14.2bn"
+    ],
+    [
+     "Diamonds",
+     "P9.3bn"
+    ]
+   ],
+   "tradeBalance": "Goods deficit −P12.4bn in 2025, down from −P34.5bn in 2024",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "Orange Money",
+     "text": "Market leader with about 53% of the mobile-money market (BOCRA, 2022)"
+    },
+    {
+     "tag": "Mobile money",
+     "name": "MyZaka · Smega · Poso",
+     "text": "Wallets of Mascom, BTC and BotswanaPost; 1.8M wallet subscriptions by end-2022; P33.5bn moved in the year to Mar 2024"
+    },
+    {
+     "tag": "Crypto",
+     "name": "Yellow Card",
+     "text": "Crypto exchange licensed by NBFIRA in 2022 under the Virtual Assets Act"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No neobank, no robo",
+     "text": "No licensed digital-only neobank and no robo-advisor; start-ups say a bank licence is the blocker"
+    }
+   ],
+   "regulationRead": "Fairly tight (our read): telco wallets ring-fenced in subsidiaries with P2m capital under Bank of Botswana; caps of P5,000/transaction, P10,000/day, P20,000/month; BoB fintech sandbox; crypto licensed by NBFIRA",
+   "stability": "Freedom House 2026: 75/100, Free (PR 31/40, CL 44/60); Nov 2024 the BDP lost power after 58 years and handed over peacefully to Duma Boko (UDC)",
+   "business": "World Bank B-READY 2024: regulatory framework 66, public services 49, operational efficiency 68; best topic business entry, weakest insolvency",
+   "hub": {
+    "city": "Gaborone",
+    "airport": "Sir Seretse Khama Intl (GBE)"
+   },
+   "destinations": {
+    "Africa": 5,
+    "Europe": 0,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 5
+   },
+   "airportFacts": [
+    "407,813 passengers (2024)",
+    "Air Botswana: 3 of 6 aircraft flying (2 ATR 72-600 + 1 E175, Aug 2026)",
+    "Gaborone–Durban and –Windhoek were dropped in 2025"
+   ],
+   "takeaways": [
+    [
+     "Diamond-dependent",
+     "Diamonds were 72.5% of 2025 goods exports; the trade deficit shrank to P12.4bn."
+    ],
+    [
+     "Wallet country",
+     "Four telco and post-office wallets; no licensed neobank or robo-advisor."
+    ],
+    [
+     "Joburg-first skies",
+     "5 nonstop cities, all in Africa; Addis Ababa is the only long-haul link."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "World Bank WDI via FRED",
+    "Bank of Botswana External Sector Statistics Bulletin (Jun 2026)",
+    "Mmegi / Statistics Botswana",
+    "BOCRA via Mmegi",
+    "Statistics Botswana",
+    "NBFIRA via Mmegi",
+    "TechCabal (2025)",
+    "Business Weekly",
+    "ITWeb (2020)",
+    "Bank of Botswana Regulatory Sandbox guidelines",
+    "Freedom House FIW 2026",
+    "Global Finance (Dec 2024)",
+    "World Bank B-READY 2024",
+    "Wikipedia: Sir Seretse Khama International Airport",
+    "FlightConnections (Oct 2026)",
+    "ch-aviation (Aug 2026)"
+   ],
+   "gdpValue": 7778,
+   "video": "videos/day18.mp4",
+   "thumb": "thumbs/day18.jpg",
+   "accent": "#3D7EBF"
+  },
+  {
+   "n": 19,
+   "country": "Lesotho",
+   "internetPct": 51.8,
+   "population": "2.36M (2025, World Bank)",
+   "gdpPerCapita": "US$1,170 (2025, IMF WEO)",
+   "headline": {
+    "exports": "Gems and garments",
+    "imports": "Fuel tops the import bill",
+    "fintech": "Wallets run the money",
+    "different": "Small wallets, big reach",
+    "stability": "Peaceful, but fragile",
+    "map": "1 city, nonstop"
+   },
+   "exportsTotal": "$1.00B of goods exports (2024, UN Comtrade via Trading Economics)",
+   "topExports": [
+    [
+     "Diamonds & gems",
+     "$236M"
+    ],
+    [
+     "Beverages (HS 22)",
+     "$188M"
+    ],
+    [
+     "Knit apparel",
+     "$171M"
+    ],
+    [
+     "Woven apparel",
+     "$132M"
+    ]
+   ],
+   "exportCallout": "Knit + woven apparel together ($304M) outsell diamonds; textiles are the largest private employer; AGOA runs to Dec 2028",
+   "topImports": [
+    [
+     "Fuels & oils",
+     "$289M"
+    ],
+    [
+     "Machinery",
+     "$155M"
+    ],
+    [
+     "Electrical equipment",
+     "$121M"
+    ],
+    [
+     "Vehicles",
+     "$111M"
+    ]
+   ],
+   "tradeBalance": "Trade deficit −$874M in 2024 (exports $1.00B vs imports $1.88B); about 90% of imports come from South Africa",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "M-Pesa",
+     "text": "Vodacom Lesotho's wallet, the main payment channel; Tsetela (Jul 2026) lets users invest with STANLIB from the wallet via USSD"
+    },
+    {
+     "tag": "Mobile money",
+     "name": "EcoCash",
+     "text": "Econet Telecom Lesotho's rival wallet"
+    },
+    {
+     "tag": "Payments rail",
+     "name": "LeSwitch",
+     "text": "Central Bank of Lesotho's national switch (2024) linking M-Pesa, EcoCash, My Wallet, C-Pay and Khetsi"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No neobank, no robo",
+     "text": "No neobank, no robo-advisor and no fintech sandbox found; banks add digital channels instead"
+    }
+   ],
+   "regulationRead": "Moderate (our read): Central Bank of Lesotho licenses every payment provider (local company, capital, governance); no sandbox; crypto outside its remit",
+   "stability": "Constitutional monarchy; PM Sam Matekane's coalition since Nov 2022 narrowly survived a 2023 no-confidence push; constitutional reform stalled; BTI 2026 governance 5.30/10 (rank 41 of 137)",
+   "business": "World Bank B-READY 2024 topic scores: business entry 76, labor 63, international trade 61, business location 46, insolvency 37, market competition 26",
+   "hub": {
+    "city": "Maseru",
+    "airport": "Moshoeshoe I Intl (MSU)"
+   },
+   "destinations": {
+    "Africa": 1,
+    "Europe": 0,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 1
+   },
+   "airportFacts": [
+    "Airlink is the only scheduled airline (Maseru–Johannesburg, about an hour)",
+    "No national carrier since Lesotho Airways / Air Lesotho stopped flying in 1997–99",
+    "Flights halted over airport fire & rescue cover in Dec 2024 and Nov 2025"
+   ],
+   "takeaways": [
+    [
+     "Diamonds, clothing, water",
+     "Gems ($236M) and apparel ($304M) carry exports; water royalties and SACU revenue prop up the budget."
+    ],
+    [
+     "Wallet-first finance",
+     "M-Pesa and EcoCash, joined by LeSwitch — and investing from about M1. No neobanks yet."
+    ],
+    [
+     "One door to the world",
+     "Every scheduled flight from Maseru goes to Johannesburg."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "World Bank via Trading Economics",
+    "worldbank.org Lesotho overview",
+    "IMF WEO",
+    "UN Comtrade 2024 via Trading Economics",
+    "World Bank WITS",
+    "GTAIC",
+    "Developing Telecoms (Jul 2026)",
+    "Lesotho Tribune (Mar 2024)",
+    "Afriwise",
+    "Pulse fintech review 2026",
+    "BTI 2026",
+    "World Bank B-READY 2024 via Newsday",
+    "Wikipedia (MSU)",
+    "FlightConnections",
+    "News24 (Nov 2025)",
+    "Travel News (Dec 2024)"
+   ],
+   "gdpValue": 1170,
+   "video": "videos/day19.mp4",
+   "thumb": "thumbs/day19.jpg",
+   "accent": "#00209F"
+  },
+  {
+   "n": 20,
+   "country": "Gambia",
+   "internetPct": 49.5,
+   "population": "2.82M (Dec 2025, Gambia Bureau of Statistics)",
+   "gdpPerCapita": "US$974 (2025, IMF WEO)",
+   "headline": {
+    "exports": "Nuts, re-exported fuel, sugar",
+    "imports": "Fuel and rice fill the bill",
+    "fintech": "Wallets did the including",
+    "different": "Cheap wallets, fast inclusion",
+    "stability": "Calm, with a vote on 5 Dec",
+    "map": "20 cities, nonstop"
+   },
+   "exportsTotal": "$49.6M of goods exports (2024, UN Comtrade via Trading Economics)",
+   "topExports": [
+    [
+     "Oil seeds (mainly groundnuts)",
+     "$17.0M"
+    ],
+    [
+     "Fuels & oils (re-exports)",
+     "$13.7M"
+    ],
+    [
+     "Sugar (re-exports)",
+     "$7.9M"
+    ],
+    [
+     "Fruit & nuts (incl. cashews)",
+     "$2.0M"
+    ]
+   ],
+   "exportCallout": "Remittances ($872M in 2025) brought in about 18× more than all goods exports ($49.6M); much trade is re-export to Senegal, Mali and Guinea-Bissau",
+   "topImports": [
+    [
+     "Fuels & oils",
+     "$317M"
+    ],
+    [
+     "Vehicles",
+     "$106M"
+    ],
+    [
+     "Cereals (mostly rice)",
+     "$100M"
+    ],
+    [
+     "Cement & stone",
+     "$57M"
+    ]
+   ],
+   "tradeBalance": "Trade deficit −$939M in 2024 (exports $49.6M vs imports $988M); imports run about 20× exports, paid for by remittances and tourism",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "Wave",
+     "text": "Senegal-born wallet, in The Gambia since Sept 2022: free cash-in and cash-out, 1% to send, free bill pay"
+    },
+    {
+     "tag": "Mobile money",
+     "name": "Afrimoney",
+     "text": "Africell's wallet, one of the two operator-led services listed by the central bank"
+    },
+    {
+     "tag": "Mobile money",
+     "name": "QMoney",
+     "text": "QCell's wallet; smaller fintechs include Nafa and APS Wallet. 4.5M registered accounts, 2.4M active (Jun 2025)"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No neobank, no robo",
+     "text": "No licensed neobank or robo-advisor and no fintech sandbox found; banks add apps and agents instead"
+    }
+   ],
+   "regulationRead": "Light-to-moderate (our read): Central Bank of The Gambia licenses wallets under its mobile-money regulation; no fintech sandbox; payments advisory committee set up in 2026",
+   "stability": "Peaceful transfer of power in 2017; President Barrow seeks a third term on 5 Dec 2026 after term-limit amendments failed in 2020 and 2025; 19 parties, fragmented opposition; watch-points: stalled constitution, press intimidation, youth migration",
+   "business": "World Bank B-READY 2024 pillar scores: regulatory framework 53.4, operational efficiency 48.4, public services 20.1 — bottom fifth of 50 economies",
+   "hub": {
+    "city": "Banjul",
+    "airport": "Banjul International (BJL)"
+   },
+   "destinations": {
+    "Africa": 8,
+    "Europe": 12,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 20
+   },
+   "airportFacts": [
+    "Banjul International (BJL), at Yundum",
+    "3.6 km runway — once a Space Shuttle abort site",
+    "No national airline since Gambia Bird folded (2014)"
+   ],
+   "takeaways": [
+    [
+     "Remittances run it",
+     "$872M from the diaspora in 2025 — over 30% of GDP and ~18× goods exports."
+    ],
+    [
+     "Wallet-led inclusion",
+     "Wave, Afrimoney and QMoney took inclusion from 19% to 82% in six years. No neobank yet."
+    ],
+    [
+     "Europe's winter beach",
+     "12 of 20 nonstop cities are in Europe — 7 of them seasonal charters."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "GBoS via Trading Economics",
+    "IMF WEO",
+    "Central Bank of The Gambia via Alkamba Times (Jan 2026)",
+    "UN Comtrade 2024 via Trading Economics",
+    "World Bank WITS",
+    "CBG via The Voice (Sep 2025)",
+    "CBG mobile money page",
+    "Access Gambia (Wave)",
+    "The Fintech Times (2026)",
+    "CBG / FinScope 2025 via AFI (Jun 2026)",
+    "Africa Center for Strategic Studies",
+    "World Bank B-READY 2024 via The Gambia Journal",
+    "Wikipedia (BJL)"
+   ],
+   "gdpValue": 974,
+   "video": "videos/day20.mp4",
+   "thumb": "thumbs/day20.jpg",
+   "accent": "#CE1126"
+  },
+  {
+   "n": 21,
+   "country": "Republic of the Congo",
+   "internetPct": 47.3,
+   "population": "6.52M (UN estimate, Oct 2025, via DataReportal)",
+   "gdpPerCapita": "US$2,360 (2024, IMF)",
+   "headline": {
+    "exports": "Oil is almost everything",
+    "imports": "Meat, fuel and pipes",
+    "fintech": "Wallets outnumber people",
+    "different": "Regional rules, not national",
+    "stability": "Stable, but closed",
+    "map": "17 cities, nonstop"
+   },
+   "exportsTotal": "4,390 bn FCFA ≈ US$7.2 bn of exports (2024, DG Trésor)",
+   "topExports": [
+    [
+     "Crude oil",
+     "4,049 bn FCFA (92%) ≈ $6.7 bn"
+    ],
+    [
+     "Refined petroleum",
+     "102 bn FCFA (2.3%) ≈ $168M"
+    ],
+    [
+     "Sawn wood",
+     "98 bn FCFA (2.2%) ≈ $162M"
+    ],
+    [
+     "Everything else",
+     "142 bn FCFA (3.2%) ≈ $234M"
+    ]
+   ],
+   "exportCallout": "Oil ≈ half of GDP; Congo is the 3rd-largest oil producer in sub-Saharan Africa (World Bank)",
+   "topImports": [
+    [
+     "Meat & offal",
+     "7.8% · 198 bn FCFA ≈ $327M"
+    ],
+    [
+     "Refined fuels",
+     "4.3% · 110 bn FCFA ≈ $181M"
+    ],
+    [
+     "Tubes & pipes",
+     "3.3% · 84 bn FCFA ≈ $139M"
+    ],
+    [
+     "Fish",
+     "2.7% · 69 bn FCFA ≈ $114M"
+    ]
+   ],
+   "tradeBalance": "Trade surplus 1,834 bn FCFA ≈ US$3.0 bn in 2024 (−35.8% vs 2023); imports 2,556 bn FCFA ≈ $4.2 bn (+9.8%), exports −15.3%",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "MTN MoMo",
+     "text": "Telco wallet: transfers, bill pay, merchant payments, cash-in/out through agents"
+    },
+    {
+     "tag": "Mobile money",
+     "name": "Airtel Money",
+     "text": "Second telco wallet; receives remittances from abroad via partners like WorldRemit"
+    },
+    {
+     "tag": "Payment switch",
+     "name": "GIMACPAY",
+     "text": "CEMAC switch linking wallets and bank accounts; wallets interoperable since 2020. 9.5M mobile-money accounts in Congo (2024)"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No neobank",
+     "text": "No licensed neobank or robo-advisor; bank apps and payment aggregators fill in"
+    }
+   ],
+   "regulationRead": "Tight, 7/10 (our read): e-money licensed regionally by BEAC/COBAC under Regulation 04/18/CEMAC/UMAC/COBAC; no sandbox yet — a 2026 draft adds a 12-month sandbox, open banking and interest-bearing safeguarded float (~2027)",
+   "stability": "6/10 (our read): Sassou Nguesso re-elected March 2026 with 94.9% for a 5th straight term, in power since 1979 (break 1992–97); internet cut on election day; two leading opponents remain jailed",
+   "business": "World Bank B-READY 2025 pillar scores: regulatory framework 52, public services 25, operational efficiency 45 (simple average ≈ 41; weakest topic business entry, 33)",
+   "hub": {
+    "city": "Brazzaville",
+    "airport": "Maya-Maya (BZV)"
+   },
+   "destinations": {
+    "Africa": 16,
+    "Europe": 1,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 17
+   },
+   "airportFacts": [
+    "Maya-Maya (BZV): terminal for 2M+ passengers a year",
+    "Run by AERCO (Egis), 25-year concession from 2011",
+    "Flag carrier ECAir: 1 Boeing 737-700, relaunched 2024"
+   ],
+   "takeaways": [
+    [
+     "Oil economy",
+     "92% of 2024 exports were crude oil."
+    ],
+    [
+     "Wallets > people",
+     "9.5M mobile-money accounts for 6.5M people."
+    ],
+    [
+     "Africa-first hub",
+     "16 of 17 nonstops stay in Africa; Paris is the lone long-haul."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "DataReportal Digital 2026",
+    "IMF via France Diplomatie (Feb 2026)",
+    "World Bank Congo overview",
+    "DG Trésor, commerce extérieur du Congo 2024",
+    "BEAC payments report 2024",
+    "Agence Ecofin / OSIRIS",
+    "Droit Médias Finance (draft CEMAC rule)",
+    "AllAfrica / The Conversation (Apr 2026)",
+    "World Bank B-READY 2025",
+    "Wikipedia (Maya-Maya, ECAir)",
+    "Logistics Cluster LCA",
+    "APS (Oct 2026)"
+   ],
+   "gdpValue": 2360,
+   "video": "videos/day21.mp4",
+   "thumb": "thumbs/day21.jpg",
+   "accent": "#009543"
+  },
+  {
+   "n": 22,
+   "country": "Cameroon",
+   "internetPct": 46.3,
+   "population": "30.1M (UN estimate, Oct 2025, via DataReportal)",
+   "gdpPerCapita": "US$1,980 (2025, IMF WEO)",
+   "headline": {
+    "exports": "Cocoa now out-earns oil",
+    "imports": "Imports outrun exports 1.7×",
+    "fintech": "Telcos rule the wallet",
+    "different": "Taxed wallets, regional rulebook",
+    "stability": "Old guard, fragile calm",
+    "map": "22 cities, nonstop"
+   },
+   "exportsTotal": "CFA 3,084 bn ≈ US$5.5 bn of exports (2025, INS), −5.2%",
+   "topExports": [
+    [
+     "Cocoa beans",
+     "810 bn CFA (26.3%)"
+    ],
+    [
+     "Crude oil",
+     "706 bn CFA (22.9%), −29.6%"
+    ],
+    [
+     "Cocoa paste & butter",
+     "377 bn CFA (12.2%)"
+    ],
+    [
+     "Liquefied natural gas",
+     "350 bn CFA (11.4%)"
+    ]
+   ],
+   "exportCallout": "38.5% of 2025 exports came from cocoa beans + paste & butter, overtaking crude oil",
+   "topImports": [
+    [
+     "Machinery & electrical",
+     "757 bn CFA"
+    ],
+    [
+     "Chemical products",
+     "548 bn CFA"
+    ],
+    [
+     "Plant products",
+     "546 bn CFA (rice 269, wheat & rye 188)"
+    ],
+    [
+     "Mineral products (mostly fuels)",
+     "19.1% of imports"
+    ]
+   ],
+   "tradeBalance": "Trade deficit 2,145 bn CFA ≈ −US$3.8 bn in 2025 (up ~23%); imports 5,229 bn CFA vs exports 3,084 bn",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "Orange Money · MTN MoMo",
+     "text": "Orange alone reported 70%+ share; 2.2 bn wallet transactions worth CFA 22.1 tn in 2023"
+    },
+    {
+     "tag": "New entrants",
+     "name": "Wave · Flutterwave",
+     "text": "Wave launched June 2025 via Commercial Bank Cameroon; Flutterwave via a BEAC licence with Ecobank"
+    },
+    {
+     "tag": "Invest & crypto",
+     "name": "Ejara",
+     "text": "Cameroon-born app: savings, fractional shares and crypto bought with mobile money; 9 francophone markets"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No licensed neobank or robo-advisor",
+     "text": "Bank-backed wallet YUP (Société Générale) shut in 2022; Ejara is the closest thing to robo-investing"
+    }
+   ],
+   "regulationRead": "Tight (our read): BEAC/COBAC license across CEMAC; 0.2% tax on wallet transfers and cash-outs since 2022 plus CFA 4 per transaction from 2025; June 2025 Finance Ministry order — payment-institution licence by Aug 2025 or stop; no fintech sandbox found",
+   "stability": "Paul Biya, 92, in power since 1982, declared winner in Oct 2025 with 53.66% (Tchiroma 35.19%); deadly protests followed; anglophone separatist conflict and Boko Haram in the Far North continue; WGI political stability #190 of 207",
+   "business": "World Bank B-READY 2025 pillar scores: regulatory framework 58.75 (global avg 66.32), public services 36.30 (avg 53.97), operational efficiency 56.63; weakest pillar public services",
+   "hub": {
+    "city": "Douala",
+    "airport": "Douala International (DLA)"
+   },
+   "destinations": {
+    "Africa": 17,
+    "Europe": 3,
+    "Middle East": 2,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 22
+   },
+   "airportFacts": [
+    "1.8M air passengers in Cameroon in 2025 (+5%)",
+    "Camair-Co: 6 aircraft (2 B737-700, 2 Q400, 2 MA60)",
+    "Air France flies Paris CDG 6×/week"
+   ],
+   "takeaways": [
+    [
+     "Cocoa economy",
+     "Cocoa beans + products were 38.5% of 2025 exports, overtaking crude oil."
+    ],
+    [
+     "Wallet nation",
+     "Orange Money and MTN MoMo dominate; Cameroon carries 76.6% of CEMAC mobile-money value."
+    ],
+    [
+     "Central African hub",
+     "22 nonstop cities from Douala, 17 of them in Africa, 3 in Europe."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "DataReportal Digital 2026",
+    "IMF World Economic Outlook",
+    "GSMA Intelligence via DataReportal",
+    "INS Cameroon via Business in Cameroon & Financial Afrik (Apr 2026)",
+    "BEAC payments report via Business in Cameroon (Oct 2025)",
+    "Launch Base Africa (Jun–Jul 2025)",
+    "TechEconomy",
+    "Business in Cameroon / IMF on mobile-money tax",
+    "Africanews (27 Oct 2025)",
+    "World Bank WGI via statisticsoftheworld",
+    "World Bank B-READY 2025 via Business in Cameroon",
+    "Wikipedia (DLA, NSI, Camair-Co), FlightConnections, Aviability",
+    "MINT via EcoMatin"
+   ],
+   "gdpValue": 1980,
+   "video": "videos/day22.mp4",
+   "thumb": "thumbs/day22.jpg",
+   "accent": "#007A5E"
+  },
+  {
+   "n": 23,
+   "country": "Mauritania",
+   "internetPct": 45.8,
+   "population": "4.93M (2023 census, ANSADE)",
+   "gdpPerCapita": "US$2,198 (2025, current US$, World Bank)",
+   "headline": {
+    "exports": "Ores, gold and fish ≈ 91% of exports",
+    "imports": "Fuel and food dominate the bill",
+    "fintech": "Bank apps are the wallet",
+    "different": "Bank-led, not telco-led",
+    "stability": "Calm in a rough neighbourhood",
+    "map": "11 cities, nonstop"
+   },
+   "exportsTotal": "US$4.06bn of exports (2023, UN Comtrade via TrendEconomy)",
+   "topExports": [
+    [
+     "Iron ore & other ores",
+     "$1.53bn"
+    ],
+    [
+     "Gold & precious metals",
+     "$1.51bn"
+    ],
+    [
+     "Fish & seafood",
+     "$675M"
+    ],
+    [
+     "Fishmeal & animal feed",
+     "$93M"
+    ],
+    [
+     "Iron & steel articles",
+     "$87M"
+    ]
+   ],
+   "exportCallout": "New since April 2025: LNG — first cargo from the offshore GTA gas field shared with Senegal; Phase 1 ~2.4 Mt a year at full output",
+   "topImports": [
+    [
+     "Fuels & oils",
+     "$1.73bn"
+    ],
+    [
+     "Machinery",
+     "$452M"
+    ],
+    [
+     "Vegetable fats & oils",
+     "$338M"
+    ],
+    [
+     "Sugar",
+     "$303M"
+    ],
+    [
+     "Cereals",
+     "$247M"
+    ]
+   ],
+   "tradeBalance": "Trade deficit −$0.75bn in 2023 ($4.06bn exports vs $4.81bn imports); 2024 (WITS): −$0.67bn",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Mobile banking",
+     "name": "Bankily",
+     "text": "73.5% of e-payments; Banque Populaire's app with ~1M members and 700 cash points"
+    },
+    {
+     "tag": "Challengers",
+     "name": "Masrvi · Sedad",
+     "text": "BMCI and BMI wallets with 9.2% and 7.8%; BimBank (BIM) adds 3.5%"
+    },
+    {
+     "tag": "Inclusion",
+     "name": "Bank accounts",
+     "text": "4.02M at end-2025, up 61% in a year across 18 banks"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No neobank, robo-advisor, telco e-money or sandbox",
+     "text": "Any newcomer needs a bank or MFI licence"
+    }
+   ],
+   "regulationRead": "Tight entry, thin rulebook (our read): Central bank (BCM) approval for everything, bank or MFI licence required (Law 2018-036); no e-money regime, sandbox or open banking; wallets interoperable via the GIMTEL switch since Oct 2024",
+   "stability": "Ghazouani re-elected June 2024 with 56% for a second and final term; no jihadist attack since 2011 despite conflict in Mali and the Sahel; growth 6.3% in 2024 (IMF)",
+   "business": "Coface business climate C on an A1–E scale (country risk also C, Nov 2025); not scored in World Bank B-READY yet — joins the 2026 edition",
+   "hub": {
+    "city": "Nouakchott",
+    "airport": "Nouakchott–Oumtounsy (NKC)"
+   },
+   "destinations": {
+    "Africa": 8,
+    "Europe": 3,
+    "Middle East": 0,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 11
+   },
+   "airportFacts": [
+    "Nouakchott–Oumtounsy (NKC), opened 2016",
+    "Built for 2M passengers a year; 3,400 m runway",
+    "Mauritania Airlines: 6 jets (737s + Embraers)"
+   ],
+   "takeaways": [
+    [
+     "Mines & sea pay",
+     "Ores, gold and fish ≈ 91% of exports; gas joined in 2025."
+    ],
+    [
+     "Bankily is the wallet",
+     "73.5% of e-payments, run by a bank, not a telco."
+    ],
+    [
+     "Small hub, short hops",
+     "11 nonstop cities, 8 of them in Africa."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank via worldstats.io",
+    "ANSADE RGPH-5 census 2023",
+    "World Bank GDP per capita via FRED",
+    "Fintech Times (2026)",
+    "UN Comtrade via TrendEconomy (2023)",
+    "bp, first GTA LNG cargo (Apr 2025)",
+    "World Bank WITS (2024)",
+    "Banque Centrale de Mauritanie via TRUST Magazine (2026)",
+    "APBM via Alakhbar",
+    "BPM press release (Oct 2024)",
+    "regalert.today",
+    "UNCDF Policy Accelerator",
+    "Coface (Nov 2025)",
+    "IMF ECF/EFF 5th review (Feb 2026)",
+    "World Bank B-READY covered economies",
+    "Wikipedia (NKC, Mauritania Airlines), Avionio"
+   ],
+   "gdpValue": 2198,
+   "video": "videos/day23.mp4",
+   "thumb": "thumbs/day23.jpg",
+   "accent": "#00894A"
+  },
+  {
+   "n": 24,
+   "country": "Zimbabwe",
+   "internetPct": 41.6,
+   "population": "17.0M (2025 estimate, UN World Population Prospects 2024)",
+   "gdpPerCapita": "US$3,358 (2025, current US$, IMF World Economic Outlook)",
+   "headline": {
+    "exports": "Gold earns half the money",
+    "imports": "Fuel and maize top the bill",
+    "fintech": "Wallets race to the cash machine",
+    "different": "Cash is scarce, so cash-out is the prize",
+    "stability": "Calm streets, rewritten constitution",
+    "map": "12 cities, nonstop"
+   },
+   "exportsTotal": "US$9.71bn of exports (2025, Buy Zimbabwe via Equity Axis)",
+   "topExports": [
+    [
+     "Gold",
+     "$4.64bn"
+    ],
+    [
+     "Nickel mattes",
+     "$1.41bn"
+    ],
+    [
+     "Tobacco",
+     "$1.33bn"
+    ],
+    [
+     "Mineral substances",
+     "$414M"
+    ],
+    [
+     "Ferro-alloys",
+     "$370M"
+    ]
+   ],
+   "exportCallout": "48% of every export dollar is gold (US$4.64bn of US$9.71bn in 2025)",
+   "topImports": [
+    [
+     "Diesel",
+     "$1.17bn+"
+    ],
+    [
+     "Petrol",
+     "$520M"
+    ],
+    [
+     "Maize",
+     "$443M"
+    ]
+   ],
+   "tradeBalance": "Trade deficit −$0.40bn in 2025 ($9.71bn exports vs $10.11bn imports), down from −$1.79bn in 2024",
+   "trade": "deficit",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "EcoCash",
+     "text": "Econet’s wallet, the market’s defining platform; now cashes out at TN CyberTech Bank ATMs"
+    },
+    {
+     "tag": "Challengers",
+     "name": "O’mari · InnBucks",
+     "text": "Old Mutual’s wallet withdraws at CABS ATMs; InnBucks builds cash recyclers (10 live, 78 planned)"
+    },
+    {
+     "tag": "Remittances",
+     "name": "Mukuru",
+     "text": "Diaspora money app, launched a wallet in 2025; remittances run ≈ US$2bn a year"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No licensed neobank or robo-advisor",
+     "text": "Telco, insurer and retailer wallets fill the space; ZIPIT links them, but not seamlessly"
+    }
+   ],
+   "regulationRead": "Tight and taxed (our read): RBZ licenses payments under the National Payment Systems Act; fintech sandbox open since 2021; IMTT 2% on US$ and 1.5% on ZiG transfers (2026 budget)",
+   "stability": "Act 6 of 2026 stretches presidential and parliamentary terms from 5 to 7 years, keeping Mnangagwa in office to 2030 and letting Parliament pick the president; opposition and civic groups are taking it to the Constitutional Court",
+   "business": "Index of Economic Freedom 2026: 35.2/100, 172nd in the world, 46th of 47 in sub-Saharan Africa (“repressed”); not scored in World Bank B-READY yet — joins the 2026 edition",
+   "hub": {
+    "city": "Harare",
+    "airport": "Robert Gabriel Mugabe International (HRE)"
+   },
+   "destinations": {
+    "Africa": 9,
+    "Europe": 1,
+    "Middle East": 2,
+    "Americas": 0,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 12
+   },
+   "airportFacts": [
+    "Robert Gabriel Mugabe International (HRE)",
+    "1.65M passengers in 2025",
+    "Air Zimbabwe: 2 own planes + a leased A330 for London (back since Jul 2026)"
+   ],
+   "takeaways": [
+    [
+     "Gold pays the bills",
+     "US$4.64bn, 48% of exports; the trade gap shrank to $0.4bn in 2025."
+    ],
+    [
+     "Wallets fight over cash",
+     "EcoCash leads; O’mari and InnBucks push ATM cash-out. No neobank yet."
+    ],
+    [
+     "12 nonstop cities",
+     "9 in Africa, Dubai and Doha in the Gulf, and London back since July 2026."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank internet users % via worldstats.io (Oct 2026)",
+    "UN World Population Prospects 2024",
+    "IMF World Economic Outlook",
+    "ZimStat rebasing via Equity Axis (Jun 2026)",
+    "Buy Zimbabwe trade analysis via Equity Axis (Feb 2026)",
+    "ZimStat external trade",
+    "Equity Axis (Jul 2026; Jan 2025)",
+    "RBZ remittance data via Equity Axis",
+    "2026 budget via AllAfrica (Nov 2025)",
+    "Financial Gazette (Mar 2021)",
+    "Business Times (Apr 2025)",
+    "SABC News (Act 6 of 2026)",
+    "Heritage Foundation 2026 Index of Economic Freedom",
+    "World Bank B-READY covered economies",
+    "Wikipedia (HRE airlines & destinations, Nov 2026)",
+    "CAPA (Jul 2026)",
+    "Airports Company of Zimbabwe via People’s Daily",
+    "ch-aviation"
+   ],
+   "gdpValue": 3358,
+   "video": "videos/day24.mp4",
+   "thumb": "thumbs/day24.jpg",
+   "accent": "#C8102E"
+  },
+  {
+   "n": 25,
+   "country": "Ivory Coast",
+   "internetPct": 41.4,
+   "population": "33.5M (2026 estimate, UN World Population Prospects 2024)",
+   "gdpPerCapita": "US$3,006 (2025, current US$, IMF World Economic Outlook Apr 2026; $3,313 forecast for 2026)",
+   "headline": {
+    "exports": "Cocoa earns 40% of the money",
+    "imports": "Fuel, machinery and rice top the bill",
+    "fintech": "Wave country",
+    "different": "One central bank, eight countries",
+    "stability": "Stable, but contested",
+    "map": "35 cities, nonstop"
+   },
+   "exportsTotal": "US$29.4bn of exports (2025, UN COMTRADE via Trading Economics)",
+   "topExports": [
+    [
+     "Cocoa & cocoa products",
+     "$11.87bn"
+    ],
+    [
+     "Gold & precious metals",
+     "$4.70bn"
+    ],
+    [
+     "Oil & mineral fuels",
+     "$3.70bn"
+    ],
+    [
+     "Natural rubber",
+     "$3.49bn"
+    ],
+    [
+     "Fruit & nuts",
+     "$2.49bn"
+    ]
+   ],
+   "exportCallout": "40% of exports is cocoa (US$11.9bn of US$29.4bn in 2025)",
+   "topImports": [
+    [
+     "Fuels & oil",
+     "$4.41bn"
+    ],
+    [
+     "Machinery",
+     "$1.98bn"
+    ],
+    [
+     "Vehicles",
+     "$1.47bn"
+    ],
+    [
+     "Cereals (mainly rice)",
+     "$1.46bn"
+    ],
+    [
+     "Fish & seafood",
+     "$1.06bn"
+    ]
+   ],
+   "tradeBalance": "Record trade surplus +$9.85bn in 2025 ($29.4bn exports vs $19.6bn imports)",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "Mobile money",
+     "name": "Wave",
+     "text": "~20m accounts (company figure); flat ~1% fee; applying for a bank licence (Wave Bank Africa)"
+    },
+    {
+     "tag": "Telco wallets",
+     "name": "Orange · MTN · Moov",
+     "text": "Orange Money 16.5m, MTN MoMo 8.2m, Moov 3.1m accounts (ARTCI, H1 2025)"
+    },
+    {
+     "tag": "Neobank",
+     "name": "Djamo",
+     "text": "Card, current & savings accounts; first fintech with a BCEAO microfinance licence (Sept 2025); funds from 1,000 F"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No licensed robo-advisor",
+     "text": "No fully digital bank yet: Wave's bank still awaits approval"
+    }
+   ],
+   "regulationRead": "Fairly tight (our read): BCEAO licenses e-money & payment firms across 8 WAEMU countries, AMF-UMOA covers investing; free P2P transfers mandated; PI-SPI instant-payment hookup required by 30 Sept 2026; first sandbox cohort recruiting in 2026, crypto excluded",
+   "stability": "Ouattara won a 4th term in Oct 2025 with 89.8% (provisional); main rivals Gbagbo and Thiam barred, turnout about 50%, deadly unrest before the vote. Our read: moderate risk",
+   "business": "World Bank B-READY 2024: 52.7/100 average (regulatory framework 68, public services 40, operational efficiency 50); in Africa's top 10 in B-READY 2025",
+   "hub": {
+    "city": "Abidjan",
+    "airport": "Félix-Houphouët-Boigny International (ABJ)"
+   },
+   "destinations": {
+    "Africa": 28,
+    "Europe": 3,
+    "Middle East": 3,
+    "Americas": 1,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 35
+   },
+   "airportFacts": [
+    "Félix-Houphouët-Boigny International (ABJ)",
+    "2.52M passengers in 2025 (+0.9%)",
+    "Air Côte d'Ivoire: 14 aircraft, incl. 2 A330neo"
+   ],
+   "takeaways": [
+    [
+     "Cocoa superpower",
+     "Cocoa is 40% of $29.4bn exports, plus gold, oil and rubber."
+    ],
+    [
+     "Wave country",
+     "~50m mobile-money accounts; one regional central bank sets the rules."
+    ],
+    [
+     "West Africa's hub",
+     "35 cities nonstop from Abidjan, 28 of them in Africa."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank internet users % via worldstats.io (Oct 2026)",
+    "UN World Population Prospects 2024",
+    "IMF World Economic Outlook, Apr 2026",
+    "UN COMTRADE via Trading Economics (2025)",
+    "ARTCI via Digital Mag CI (Nov 2025)",
+    "Ecofin (Sept 2025)",
+    "Djamo.com",
+    "Payments Afrika",
+    "BCEAO",
+    "LaunchBase Africa (Oct 2026)",
+    "Droit Médias Finance",
+    "AllAfrica / CEI provisional results (Oct 2025)",
+    "World Bank B-READY 2024 via Le360",
+    "B-READY 2025 via Bénin Web TV",
+    "Wikipedia (ABJ airlines & destinations, Nov 2026)",
+    "aeroroutes",
+    "CAPA"
+   ],
+   "gdpValue": 3006,
+   "video": "videos/day25.mp4",
+   "thumb": "thumbs/day25.jpg",
+   "accent": "#E8770A"
+  },
+  {
+   "n": 26,
+   "country": "Nigeria",
+   "internetPct": 41.2,
+   "population": "237.5M (2025, UN World Population Prospects 2024)",
+   "gdpPerCapita": "US$1,223 (2025, current US$, IMF World Economic Outlook Oct 2026 via Statista; after the 2025 GDP rebasing)",
+   "headline": {
+    "exports": "Oil still pays the bills",
+    "imports": "Fuel, machines and cars top the bill",
+    "fintech": "Africa's fintech heavyweight",
+    "different": "Banks, not telcos, run the wallets",
+    "stability": "Democratic, but insecure in the north",
+    "map": "33 cities, nonstop"
+   },
+   "exportsTotal": "US$52.7bn of exports (2025, World's Top Exports)",
+   "topExports": [
+    [
+     "Oil & mineral fuels",
+     "$44.1bn"
+    ],
+    [
+     "Cocoa",
+     "$3.2bn"
+    ],
+    [
+     "Fertilizers (urea)",
+     "$1.5bn"
+    ],
+    [
+     "Ores, slag & ash",
+     "$1.0bn"
+    ],
+    [
+     "Gems & precious metals",
+     "$0.4bn"
+    ]
+   ],
+   "exportCallout": "84% of export earnings come from oil & gas; crude alone ₦47.4tn = 56% of ₦85.1tn (NBS 2025)",
+   "topImports": [
+    [
+     "Mineral fuels & oil",
+     "$8.3bn"
+    ],
+    [
+     "Machinery & computers",
+     "$6.1bn"
+    ],
+    [
+     "Electrical equipment",
+     "$5.3bn"
+    ],
+    [
+     "Vehicles",
+     "$5.1bn"
+    ],
+    [
+     "Plastics",
+     "$2.7bn"
+    ]
+   ],
+   "tradeBalance": "Trade surplus +₦17.8tn in 2025 (NBS: ₦85.1tn exports vs ₦67.4tn imports); petrol import bill −42% to ₦8.96tn",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "Wallets & neobanks",
+     "name": "OPay · PalmPay · Moniepoint · Kuda",
+     "text": "OPay 45M+ users, PalmPay 40M, Kuda 7M+; national microfinance-bank licences (₦5bn capital, Jan 2026)"
+    },
+    {
+     "tag": "Payments",
+     "name": "Flutterwave · Paystack · Interswitch",
+     "text": "Lagos-built card, transfer and checkout rails used across Africa"
+    },
+    {
+     "tag": "Investing apps",
+     "name": "Cowrywise · Risevest · Bamboo · Trove",
+     "text": "Savings, funds and US stocks; Risevest won an SEC fund-manager licence in Feb 2026"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No robo-advisor licence, small telco money",
+     "text": "Robo-style apps run as SEC fund managers or brokers; telcos only got Payment Service Bank approval in 2022"
+    }
+   ],
+   "regulationRead": "Tight & active, 7/10 (our read): CBN licenses microfinance banks, payment service banks and processors; sandbox framework since 2020; SEC licenses investing apps",
+   "stability": "Civilian rule since 1999; President Tinubu since May 2023; next presidential election 16 Jan 2027 (INEC); insurgency in the north-east, banditry in the north-west. WGI political stability −1.77 (2023). Our read: high security risk, stable institutions",
+   "business": "Heritage Index of Economic Freedom 2026: 54.8/100, 119th in the world, 20th of 47 in sub-Saharan Africa, \"mostly unfree\" (B-READY 2025 scores not retrievable)",
+   "hub": {
+    "city": "Lagos",
+    "airport": "Murtala Muhammed International (LOS)"
+   },
+   "destinations": {
+    "Africa": 21,
+    "Europe": 6,
+    "Middle East": 3,
+    "Americas": 3,
+    "Asia": 0,
+    "Oceania": 0,
+    "total": 33
+   },
+   "airportFacts": [
+    "4.3M international passengers (2024, FAAN)",
+    "#10 in Africa by departing seats (Oct 2025)",
+    "No flag carrier: Air Peace, private, is the biggest airline"
+   ],
+   "takeaways": [
+    [
+     "Oil still rules",
+     "Oil & gas earn 84% of US$52.7bn exports; cocoa is a distant second."
+    ],
+    [
+     "Wallet nation",
+     "OPay (45M+) and PalmPay (40M users) are licensed banks, not telco wallets."
+    ],
+    [
+     "Lagos links 33 cities",
+     "21 in Africa, 6 in Europe, 3 in the Middle East, 3 in the US; none in Asia."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank internet users % via worldstats.io (Oct 2026)",
+    "UN World Population Prospects 2024",
+    "IMF World Economic Outlook, Oct 2026 (via Statista)",
+    "NBS rebasing via Proshare",
+    "World's Top Exports (2025)",
+    "NBS 2025 trade data via Nairametrics and BusinessDay (Mar 2026)",
+    "Nairametrics (CBN licences Jan 2026; app downloads Jun 2026)",
+    "TechCabal (Feb 2026)",
+    "ThisDay (MoMo PSB, Apr 2022)",
+    "World Bank WGI via Trading Economics",
+    "INEC via AllAfrica (Feb 2026)",
+    "Heritage Foundation, Index of Economic Freedom 2026",
+    "Wikipedia (LOS airlines & destinations, Nov 2026)",
+    "FAAN & OAG via Nairametrics"
+   ],
+   "gdpValue": 1223,
+   "video": "videos/day26.mp4",
+   "thumb": "thumbs/day26.jpg",
+   "accent": "#008751"
+  },
+  {
+   "n": 27,
+   "country": "Angola",
+   "internetPct": 40.7,
+   "population": "39.0M (2025, UN World Population Prospects 2024) · median age 16.6",
+   "gdpPerCapita": "US$3,614 (2025, current US$, IMF World Economic Outlook Apr 2026 via StatisticsTimes)",
+   "headline": {
+    "exports": "Oil is 83% of exports",
+    "imports": "It imports its fuel back",
+    "fintech": "Bank rails, not telco wallets",
+    "different": "Not M-Pesa, not Nubank",
+    "stability": "Stable, but strained",
+    "map": "23 cities, nonstop"
+   },
+   "exportsTotal": "US$33.7bn of exports (2025, World's Top Exports)",
+   "topExports": [
+    [
+     "Mineral fuels & oil",
+     "$28.1bn"
+    ],
+    [
+     "Ships & boats",
+     "$2.8bn"
+    ],
+    [
+     "Gems & precious metals",
+     "$1.8bn"
+    ],
+    [
+     "Iron & steel",
+     "$0.27bn"
+    ]
+   ],
+   "exportCallout": "393M barrels of crude exported in 2024 for $31.4bn; China bought 52%. Diamonds: 10.2M carats, ≈$1.5bn, 78% to the UAE",
+   "topImports": [
+    [
+     "Refined fuels & gas",
+     "37.6%"
+    ],
+    [
+     "Machinery & appliances",
+     "17.9%"
+    ],
+    [
+     "Food products",
+     "8.8%"
+    ],
+    [
+     "Vehicles",
+     "7.6%"
+    ],
+    [
+     "Chemicals & pharma",
+     "7.3%"
+    ]
+   ],
+   "tradeBalance": "Trade surplus +Kz 12.8tn in 2025 (INE: Kz 28.0tn exports vs Kz 15.3tn imports), down 31.5% on 2024 as oil fell; import shares are for May 2026",
+   "trade": "surplus",
+   "fintech": [
+    {
+     "tag": "Payments rail",
+     "name": "Multicaixa Express",
+     "text": "The interbank network's app (EMIS): pay and transfer from a bank account by phone; the backbone of e-payments"
+    },
+    {
+     "tag": "Mobile money",
+     "name": "Unitel Money · Afrimoney",
+     "text": "Unitel Money ~2M users, Kz 50bn moved Jan–Sep 2024; Africell's Afrimoney licensed Oct 2022"
+    },
+    {
+     "tag": "Instant pay",
+     "name": "PayPay on KWiK",
+     "text": "Payment app on the KWiK instant-payment system: 1.6M+ transfers a month"
+    },
+    {
+     "tag": "Gaps",
+     "name": "No neobank, no robo-advisor",
+     "text": "No licensed digital-only bank or robo-advisor found; ~14 fintech startups; nearly half of people unbanked"
+    }
+   ],
+   "regulationRead": "Tight (our read): BNA must authorise every payment and e-money firm (Notice 06/2024), approvals take 6–12 months, cross-border FX operations capped at US$5,000; sandbox built with Beta-i",
+   "stability": "MPLA has governed since independence in 1975; President Lourenço's final term ends in 2027, elections due then and succession open; July 2025 fuel-price protests left at least 22 dead. Our read: moderate",
+   "business": "World Bank B-READY: public services 37.5/100 (81st of 101), international trade 24/100 (weakest topic), regulatory framework 65th of 101 (4th in SADC); strongest on business entry",
+   "hub": {
+    "city": "Luanda",
+    "airport": "Dr. António Agostinho Neto International (NBJ)"
+   },
+   "destinations": {
+    "Africa": 14,
+    "Europe": 4,
+    "Middle East": 2,
+    "Americas": 2,
+    "Asia": 1,
+    "Oceania": 0,
+    "total": 23
+   },
+   "airportFacts": [
+    "All scheduled flights moved to NBJ by Mar 2026",
+    "189k passengers in Dec 2025",
+    "TAAG fleet: 31 aircraft, incl. 4 Boeing 787s"
+   ],
+   "takeaways": [
+    [
+     "An oil state",
+     "Fuel is 83% of exports — and refined fuel is its #1 import."
+    ],
+    [
+     "Payments ride bank rails",
+     "Multicaixa leads; no neobank or robo-advisor yet."
+    ],
+    [
+     "A hub in the making",
+     "23 nonstop cities from the new NBJ. From Mauritius, connect via Johannesburg or Dubai."
+    ]
+   ],
+   "sourcesOnScreen": [
+    "World Bank internet users % via worldstats.io (Oct 2026)",
+    "UN World Population Prospects 2024 (Worldometer)",
+    "IMF World Economic Outlook, Apr 2026 (via StatisticsTimes)",
+    "World's Top Exports (2025)",
+    "Forbes África Lusófona (Jan 2025)",
+    "Ver Angola (Mar 2025; Dec 2025; May 2026)",
+    "INE via ANGOP/AllAfrica (May 2026)",
+    "Expansão (Nov 2024; Jan 2026; Apr 2026)",
+    "Techpoint Africa (Jan 2023)",
+    "The Fintech Times (Mar 2026)",
+    "RegAlert summary of BNA rules (2026)",
+    "World Bank B-READY via Expansão (Apr 2026)",
+    "Al Jazeera (Jul 2025)",
+    "BTI 2026",
+    "Wikipedia airlines & destinations (Nov 2026)",
+    "ATTA (Oct 2026)",
+    "Wikipedia TAAG fleet (Dec 2025)"
+   ],
+   "gdpValue": 3614,
+   "video": "videos/day27.mp4",
+   "thumb": "thumbs/day27.jpg",
+   "accent": "#C8102E"
+  }
+ ]
+}

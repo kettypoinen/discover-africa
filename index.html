@@ -1,0 +1,476 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>African Country of the Day</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: masthead with a 54-tick rank ladder; player + episode file on the left, Africa map navigator on the right; filmstrip carousel below. */
+:root {
+  --paper: #F4EDE1; --ink: #1C1A17; --mute: #6F6656; --line: #D9CDB8; --land: #E4D9C6; --soft: #EBE2D3; --raise: #FBF7F0;
+  --ep: #003580;
+  --accent: var(--ep);
+  --display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --body: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #16140F; --ink: #EFE7D8; --mute: #A69C8A; --line: #3A342A; --land: #2B271F; --soft: #211E18; --raise: #1D1A15;
+  --accent: color-mix(in oklab, var(--ep) 62%, #ffffff); color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #16140F; --ink: #EFE7D8; --mute: #A69C8A; --line: #3A342A; --land: #2B271F; --soft: #211E18; --raise: #1D1A15;
+  --accent: color-mix(in oklab, var(--ep) 62%, #ffffff); color-scheme: dark }
+
+* { box-sizing: border-box }
+body { background: var(--paper); color: var(--ink); font: 400 16px/1.5 var(--body); font-stretch: 100%; }
+.wrap { max-width: 1320px; margin: 0 auto; padding-block: 28px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { margin: 0; text-wrap: balance }
+button, select { font: inherit; color: inherit }
+button:focus-visible, select:focus-visible, a:focus-visible, .card:focus-visible, path:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px }
+.label { font: 700 12px/1.2 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--mute) }
+.num { font-variant-numeric: tabular-nums }
+
+/* masthead */
+.mast { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 32px; align-items: end; padding-bottom: 20px; border-bottom: 2px solid var(--ink) }
+.mast h1 { margin-top: 18px; font: 900 clamp(34px, 6vw, 72px)/0.92 var(--display); font-stretch: 125%; letter-spacing: -0.02em }
+.mast p { margin: 10px 0 0; color: var(--mute); max-width: 60ch }
+.count { text-align: right; font-family: var(--mono) }
+.count b { display: block; font: 900 clamp(34px, 5vw, 56px)/1 var(--display); font-stretch: 125%; color: var(--ink) }
+.ladder { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(54, 1fr); gap: 2px; margin-top: 14px; align-items: end; height: 44px }
+.ladder button { border: 0; padding: 0; background: var(--line); border-radius: 2px; cursor: pointer; min-height: 6px }
+.ladder button[disabled] { cursor: default; opacity: .7 }
+.ladder button.on { outline: 2px solid var(--ink); outline-offset: 1px }
+.ladderkey { grid-column: 1 / -1; display: flex; justify-content: space-between; font: 500 12px var(--mono); color: var(--mute) }
+
+/* main */
+.main { display: grid; grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr); gap: 32px; margin-top: 28px }
+.player { display: grid; gap: 14px; min-width: 0 }
+.screen { position: relative; aspect-ratio: 16 / 9; max-width: 100%; background: #000; border-radius: 6px; overflow: hidden }
+.screen video { width: 100%; height: 100%; display: block }
+.bar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between }
+.who { display: flex; align-items: baseline; gap: 14px; min-width: 0 }
+.who .rank { font: 900 44px/1 var(--display); font-stretch: 125%; color: var(--accent) }
+.who h2 { font: 900 clamp(26px, 3.4vw, 40px)/1 var(--display); font-stretch: 112% }
+.who .sub { font: 500 13px var(--mono); color: var(--mute) }
+.ctrls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap }
+.btn { border: 1.5px solid var(--ink); background: transparent; border-radius: 999px; padding: 8px 16px; font-weight: 600; cursor: pointer }
+.btn:hover:not([disabled]) { background: var(--ink); color: var(--paper) }
+.btn[disabled] { opacity: .35; cursor: default }
+.toggle { display: inline-flex; gap: 8px; align-items: center; font-size: 14px; color: var(--mute); cursor: pointer; padding: 4px 6px }
+.toggle input { accent-color: var(--accent); width: 18px; height: 18px }
+
+/* episode file */
+.file { display: grid; gap: 22px; margin-top: 8px }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line) }
+.stat { padding: 14px 14px 14px 0; min-width: 0 }
+.stat + .stat { padding-left: 14px; border-left: 1px solid var(--line) }
+.stat b { display: block; font: 800 clamp(22px, 2.6vw, 30px)/1.1 var(--display); font-stretch: 110%; margin-top: 6px }
+.stat small { display: block; color: var(--mute); font-size: 13px; line-height: 1.35; margin-top: 4px }
+.cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 32px }
+.block { min-width: 0 }
+.block h3 { font: 800 19px/1.2 var(--display); font-stretch: 105%; margin: 6px 0 10px }
+.rows { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none }
+.rows li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dotted var(--line); padding-bottom: 5px; font-size: 15px }
+.rows li span:last-child { font-family: var(--mono); font-size: 14px; white-space: nowrap; text-align: right }
+.note { color: var(--mute); font-size: 14px; margin: 8px 0 0 }
+.regions { display: grid; gap: 7px }
+.reg { display: grid; grid-template-columns: 96px minmax(0, 1fr) 34px; gap: 10px; align-items: center; font-size: 14px }
+.reg i { display: block; height: 10px; border-radius: 2px; background: var(--accent) }
+.reg .z { color: var(--mute) }
+.reg span:last-child { font-family: var(--mono); text-align: right }
+.chips { display: flex; flex-wrap: wrap; gap: 8px }
+.chip { border: 1px solid var(--line); background: var(--raise); border-radius: 6px; padding: 8px 10px; font-size: 14px; line-height: 1.35; min-width: 0; flex: 1 1 200px }
+.chip em { display: block; font: 700 11px var(--mono); letter-spacing: .1em; text-transform: uppercase; font-style: normal; color: var(--accent) }
+.chip strong { display: block; font-weight: 700 }
+.verdicts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px }
+.verdicts p { margin: 6px 0 0; font-size: 15px }
+.take { counter-reset: t; display: grid; gap: 10px; margin: 0; padding: 0; list-style: none }
+.take li { counter-increment: t; display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 6px; font-size: 15px }
+.take li::before { content: counter(t); font: 900 28px/1 var(--display); font-stretch: 125%; color: var(--accent) }
+.take b { display: block }
+.src { font-size: 12.35px; color: var(--mute); margin: 0 }
+
+/* map */
+.side { min-width: 0 }
+.side .sticky { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); display: grid; gap: 14px }
+.map svg { width: 100%; height: auto; display: block }
+.map .land { fill: var(--land) }
+.map .c { fill: var(--line); stroke: var(--paper); stroke-width: .6; transition: fill .2s }
+.map .c.pub { cursor: pointer; fill: color-mix(in oklab, var(--ink) 55%, var(--paper)) }
+.map .c.pub:hover { fill: var(--ink) }
+.map .c.cur { fill: var(--accent) }
+.map .c.dim { opacity: .35 }
+.map .isle { stroke: var(--paper); stroke-width: 1 }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--mute) }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; background: var(--sw) }
+.finder { display: grid; gap: 8px }
+.finder > .label, .finder > .sortrow { margin-top: 16px }
+.qrow { display: flex; gap: 8px }
+.qrow input { flex: 1; min-width: 0; border: 1.5px solid var(--ink); background: var(--raise); border-radius: 999px; padding: 8px 14px; font: inherit; font-size: 16px; color: var(--ink) }
+.qrow input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px }
+.btn.sm { padding: 6px 12px; font-size: 14px }
+.answer { border-top: 1px solid var(--line); padding-top: 10px; display: grid; gap: 6px; max-height: 380px; overflow: auto; overscroll-behavior: contain }
+.answer p { margin: 0; font-size: 14px; color: var(--mute) }
+.answer p b { color: var(--ink) }
+.answer p.hint { font-style: italic; font-size: 12.6px }
+.hit { display: grid; gap: 2px; text-align: left; border: 1px solid var(--line); border-left: 4px solid var(--c, var(--line)); background: var(--raise); border-radius: 6px; padding: 8px 10px; cursor: pointer }
+.hit:hover { border-color: var(--ink); border-left-color: var(--c, var(--ink)) }
+.hit b { font: 800 15px/1.2 var(--display); font-stretch: 105% }
+.hit span { font-size: 13px; line-height: 1.35; color: var(--mute) }
+.hit mark { background: color-mix(in oklab, var(--accent) 22%, transparent); color: var(--ink); border-radius: 2px }
+.seg { display: flex; flex-wrap: wrap; gap: 6px }
+.seg button { border: 1px solid var(--line); background: var(--raise); border-radius: 999px; padding: 5px 12px; font-size: 14px; cursor: pointer }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink) }
+.sortrow { display: flex; gap: 10px; align-items: center; font-size: 14px; color: var(--mute) }
+.sortrow select { border: 1px solid var(--line); background: var(--raise); border-radius: 6px; padding: 5px 8px; color: var(--ink) }
+
+/* filmstrip */
+.stripwrap { margin-top: 40px; border-top: 2px solid var(--ink); padding-top: 14px }
+.striphead { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap }
+.striphead h2 { font: 900 24px/1.1 var(--display); font-stretch: 112% }
+.strip { display: grid; grid-auto-flow: column; grid-auto-columns: 220px; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 14px 2px 10px; overscroll-behavior-x: contain }
+.card { scroll-snap-align: start; border: 1px solid var(--line); background: var(--raise); border-radius: 6px; overflow: hidden; cursor: pointer; text-align: left; padding: 0; display: grid; grid-template-rows: auto 1fr }
+.card img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: var(--soft); align-self: start }
+.card .meta { padding: 8px 10px 10px; display: grid; gap: 2px; border-top: 4px solid var(--c, var(--line)) }
+.card .meta b { font: 800 16px/1.2 var(--display); font-stretch: 105% }
+.card .meta span { font: 500 12px var(--mono); color: var(--mute) }
+.card.cur { outline: 3px solid var(--ink); outline-offset: -3px }
+.card.soon { cursor: default; background: transparent; border-style: dashed }
+.card.soon .ph { aspect-ratio: 16 / 9; display: grid; place-items: center; background: var(--soft); font: 900 40px var(--display); font-stretch: 125%; color: var(--line) }
+.empty { padding: 20px 0; color: var(--mute) }
+
+@media (max-width: 960px) {
+  .main { grid-template-columns: minmax(0, 1fr) }
+  .side .sticky { position: static }
+  .map { max-width: 460px }
+}
+@media (max-width: 640px) {
+  .mast { grid-template-columns: minmax(0, 1fr) }
+  .count { text-align: left }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)) }
+  .stat:nth-child(3) { padding-left: 0; border-left: 0; border-top: 1px solid var(--line) }
+  .stat:nth-child(4) { border-top: 1px solid var(--line) }
+  .cols, .verdicts { grid-template-columns: minmax(0, 1fr) }
+  .ladder { height: 32px; gap: 1px }
+  .ladderkey span:nth-child(2) { display: none }
+  .strip { grid-auto-columns: 180px }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important } }
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <div class="label">A daily explainer series · 54 countries</div>
+      <h1>African Country of the Day</h1>
+      <p>One country a day, ranked from the most online to the least. Each film covers money, trade, fintech, stability and every nonstop flight from the main airport.</p>
+    </div>
+    <div class="count"><b class="num" id="count">0 / 54</b><span class="label">films published</span></div>
+    <div class="ladder" id="ladder" aria-label="All 54 countries by internet use"></div>
+    <div class="ladderkey"><span>#1 Morocco · 91.2% online</span><span>Africa average 43.1%</span><span>#54 South Sudan · 6.7%</span></div>
+  </header>
+
+  <section class="main">
+    <div class="player">
+      <div class="screen"><video id="vid" controls playsinline preload="metadata"></video></div>
+      <div class="bar">
+        <div class="who"><span class="rank num" id="rank">#</span><div><h2 id="name">Loading…</h2><div class="sub" id="sub"></div></div></div>
+        <div class="ctrls">
+          <button class="btn" id="prev" type="button">← Previous</button>
+          <button class="btn" id="next" type="button">Next →</button>
+          <label class="toggle" for="auto"><input type="checkbox" id="auto" checked> Play the next film automatically</label>
+        </div>
+      </div>
+      <article class="file" id="file" aria-live="polite"></article>
+    </div>
+
+    <aside class="side">
+      <div class="sticky">
+        <div class="label">Pick a country</div>
+        <div class="map" id="map" aria-label="Map of Africa"></div>
+        <div class="legend"><span style="--sw: var(--accent)">Now showing</span><span style="--sw: color-mix(in oklab, var(--ink) 55%, var(--paper))">Published</span><span style="--sw: var(--line)">Coming up</span></div>
+        <div class="finder" role="search">
+          <label class="label" for="q">Find in the films</label>
+          <div class="qrow"><input id="q" type="search" placeholder="Try surplus, Wave, Dubai, no neobank" autocomplete="off" spellcheck="false"><button class="btn sm" id="qclear" type="button" hidden>Clear</button></div>
+          <div class="label">Quick questions</div>
+          <div class="seg" id="quick"></div>
+          <div class="sortrow"><label for="sort">Order by</label>
+            <select id="sort"><option value="rank">Internet use (series order)</option><option value="gdp">GDP per person</option><option value="flights">Nonstop cities</option></select></div>
+          <div class="answer" id="answer" aria-live="polite"></div>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="stripwrap">
+    <div class="striphead"><h2 id="striptitle">All films</h2><span class="label" id="stripnote"></span></div>
+    <div class="strip" id="strip"></div>
+  </section>
+</div>
+
+<script>
+// Series order: World Bank internet users %, via worldstats.io (Oct 2026). [rank, name, %, ISO numeric, region]
+const ALL = [
+ [1,'Morocco',91.2,504,'North'],[2,'Seychelles',87.8,690,'East'],[3,'Libya',82.0,434,'North'],[4,'South Africa',78.4,710,'Southern'],
+ [5,'Algeria',77.4,12,'North'],[6,'Tunisia',76.5,788,'North'],[7,'Cape Verde',74.7,132,'West'],[8,'Egypt',74.7,818,'North'],
+ [9,'Mauritius',73.3,480,'East'],[10,'Ghana',72.2,288,'West'],[11,'Gabon',68.7,266,'Central'],[12,'Djibouti',65.3,262,'East'],
+ [13,'Namibia',64.9,516,'Southern'],[14,'Eswatini',63.4,748,'Southern'],[15,'Equatorial Guinea',63.3,226,'Central'],[16,'Senegal',60.1,686,'West'],
+ [17,'São Tomé and Príncipe',59.1,678,'Central'],[18,'Botswana',57.5,72,'Southern'],[19,'Lesotho',51.8,426,'Southern'],[20,'Gambia',49.5,270,'West'],
+ [21,'Republic of the Congo',47.3,178,'Central'],[22,'Cameroon',46.3,120,'Central'],[23,'Mauritania',45.8,478,'West'],[24,'Zimbabwe',41.6,716,'East'],
+ [25,'Ivory Coast',41.4,384,'West'],[26,'Nigeria',41.2,566,'West'],[27,'Angola',40.7,24,'Central'],[28,'Togo',39.5,768,'West'],
+ [29,'Mali',36.8,466,'West'],[30,'Kenya',35.0,404,'East'],[31,'Benin',34.0,204,'West'],[32,'Guinea',33.3,324,'West'],
+ [33,'Comoros',32.5,174,'East'],[34,'Liberia',32.2,430,'West'],[35,'Rwanda',31.7,646,'East'],[36,'Tanzania',31.2,834,'East'],
+ [37,'Guinea-Bissau',29.8,624,'West'],[38,'Burkina Faso',28.3,854,'West'],[39,'Somalia',27.9,706,'East'],[40,'Sierra Leone',25.1,694,'West'],
+ [41,'Ethiopia',21.9,231,'East'],[42,'Mozambique',20.5,508,'East'],[43,'DR Congo',19.7,180,'Central'],[44,'Malawi',19.0,454,'East'],
+ [45,'Madagascar',18.7,450,'East'],[46,'Sudan',18.6,729,'North'],[47,'Zambia',17.1,894,'East'],[48,'Niger',15.6,562,'West'],
+ [49,'Eritrea',14.3,232,'East'],[50,'Central African Republic',13.8,140,'Central'],[51,'Chad',12.6,148,'Central'],[52,'Uganda',8.9,800,'East'],
+ [53,'Burundi',8.6,108,'East'],[54,'South Sudan',6.7,728,'East'],
+];
+const REGIONS = ['All', 'North', 'West', 'Central', 'East', 'Southern'];
+const ISLES = new Set([690, 480, 132, 174, 678]);
+const START = Date.UTC(2026, 9, 14);
+const slug = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const dayDate = (n) => new Date(START + (n - 1) * 864e5).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const $ = (id) => document.getElementById(id);
+
+let EP = [], byN = new Map(), cur = null, region = 'All', sort = 'rank', quick = null, query = '';
+const norm = (s) => String(s ?? '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const SKIP = new Set(['video', 'thumb', 'accent', 'region', 'hay', 'n', 'gdpValue', 'trade']);
+const LABELS = { tradeBalance: 'Trade', topExports: 'Exports', topImports: 'Imports', exportCallout: 'Exports', exportsTotal: 'Exports', fintech: 'Fintech', regulationRead: 'Regulation', stability: 'Stability', business: 'Business', airportFacts: 'Airport', hub: 'Airport', takeaways: 'Takeaway', headline: 'Headline', population: 'People', gdpPerCapita: 'GDP', sourcesOnScreen: 'Sources', destinations: 'Flights' };
+function strings(e) {
+  const out = [];
+  const walk = (v, key) => { if (v == null) return; if (typeof v === 'string') out.push([key, v]); else if (typeof v === 'number') out.push([key, String(v)]); else if (Array.isArray(v)) v.forEach((x) => walk(x, key)); else if (typeof v === 'object') Object.entries(v).forEach(([k, x]) => walk(x, key === 'destinations' ? key : key || k)); };
+  for (const [k, v] of Object.entries(e)) if (!SKIP.has(k)) walk(v, k === 'country' ? 'Country' : k);
+  return out;
+}
+const tradeOf = (e) => e.trade || (/surplus/i.test(e.tradeBalance || '') && !/deficit/i.test(e.tradeBalance || '') ? 'surplus' : /deficit/i.test(e.tradeBalance || '') ? 'deficit' : null);
+const QUICK = [
+  { id: 'surplus', label: 'Trade surplus', say: 'with a trade surplus', test: (e) => tradeOf(e) === 'surplus', show: (e) => e.tradeBalance },
+  { id: 'deficit', label: 'Trade deficit', say: 'with a trade deficit', test: (e) => tradeOf(e) === 'deficit', show: (e) => e.tradeBalance },
+  { id: 'online', label: 'Above Africa average online', say: 'above the 43.1% Africa average online', test: (e) => e.internetPct > 43.1, show: (e) => `${e.internetPct}% online` },
+  { id: 'hub', label: '20+ nonstop cities', say: 'with 20+ nonstop cities', test: (e) => (e.destinations?.total ?? 0) >= 20, show: (e) => `${e.destinations.total} nonstop cities from ${e.hub?.city || 'the main airport'}` },
+  { id: 'asia', label: 'Nonstop to Asia', say: 'with nonstop flights to Asia', test: (e) => (e.destinations?.Asia ?? 0) > 0, show: (e) => `${e.destinations.Asia} Asian ${e.destinations.Asia > 1 ? 'cities' : 'city'} nonstop` },
+  { id: 'americas', label: 'Nonstop to the Americas', say: 'with nonstop flights to the Americas', test: (e) => (e.destinations?.Americas ?? 0) > 0, show: (e) => `${e.destinations.Americas} ${e.destinations.Americas > 1 ? 'cities' : 'city'} in the Americas nonstop` },
+  { id: 'gdp', label: 'GDP over $5,000 a person', say: 'with GDP over $5,000 a person', test: (e) => (e.gdpValue ?? 0) > 5000, show: (e) => `$${e.gdpValue.toLocaleString('en-US')} per person` },
+];
+const INTENT = [[/\bsurplus(es)?\b/, 'surplus'], [/\bdeficits?\b/, 'deficit']];
+function parsed() {
+  let q = norm(query).trim(), intent = quick;
+  for (const [re, id] of INTENT) if (re.test(q)) { if (!intent) intent = id; q = q.replace(re, ' '); }
+  const FILL = new Set(['which', 'what', 'show', 'me', 'all', 'list', 'countries', 'country', 'have', 'has', 'had', 'with', 'a', 'an', 'the', 'trade', 'that', 'do', 'does', 'is', 'are']);
+  const words = q.split(/\s+/).filter(Boolean);
+  while (words.length && FILL.has(words[0])) words.shift();
+  while (words.length && FILL.has(words[words.length - 1])) words.pop();
+  const phrase = words.join(' ');
+  return { intent: QUICK.find((x) => x.id === intent) || null, phrase, terms: phrase ? [phrase] : [] };
+}
+const active = () => region !== 'All' || !!quick || !!query.trim();
+function matches(e, p = parsed()) {
+  if (region !== 'All' && e.region !== region) return false;
+  if (p.intent && !p.intent.test(e)) return false;
+  if (!p.phrase) return true;
+  if (p.loose) return p.loose.every((t) => e.hay.includes(t));
+  return e.hay.includes(p.phrase);
+}
+// a phrase that appears nowhere falls back to "all of these words" (3+ letters)
+function resolved() {
+  const p = parsed();
+  if (p.phrase && p.phrase.includes(' ') && !EP.some((e) => matches(e, p))) {
+    p.loose = p.phrase.split(' ').filter((t) => t.length > 2);
+    if (p.loose.length) p.terms = p.loose; else p.loose = null;
+  }
+  return p;
+}
+function snippet(e, terms) {
+  for (const [k, s] of strings(e)) {
+    const n = norm(s), i = n.indexOf(terms[0]); if (i < 0) continue;
+    const a = Math.max(0, i - 40), b = Math.min(s.length, i + terms[0].length + 70);
+    const pre = (a ? '…' : '') + esc(s.slice(a, i)), hit = esc(s.slice(i, i + terms[0].length)), post = esc(s.slice(i + terms[0].length, b)) + (b < s.length ? '…' : '');
+    return `${esc(LABELS[k] || (k === 'Country' ? 'Country' : k))}: ${pre}<mark>${hit}</mark>${post}`;
+  }
+  return '';
+}
+function answer() {
+  const el = $('answer'); const p = resolved();
+  $('qclear').hidden = !query;
+  if (!active()) { el.innerHTML = '<p class="hint">Type a word or tap a quick question. Results come only from the facts in the films.</p>'; return }
+  const list = order();
+  const what = [p.intent ? p.intent.say : '', p.terms.length ? `mentioning “${esc(p.loose ? p.loose.join(' + ') : p.phrase)}”` : '', region !== 'All' ? `in ${region} Africa` : ''].filter(Boolean).join(', ');
+  if (!list.length) { el.innerHTML = `<p>No films so far ${what}.</p>`; return }
+  el.innerHTML = `<p><b>${list.length} ${list.length === 1 ? 'country' : 'countries'}</b> ${what} <span>(of ${EP.length} films)</span></p>` +
+    list.map((e) => `<button type="button" class="hit" data-n="${e.n}" style="--c:${e.accent}"><b>#${e.n} ${esc(e.country)}</b><span>${p.terms.length ? snippet(e, p.terms) || esc(p.intent ? p.intent.show(e) : '') : esc(p.intent ? p.intent.show(e) : `${e.internetPct}% online`)}</span></button>`).join('');
+}
+const store = { get(k) { try { return localStorage.getItem(k) } catch { return null } }, set(k, v) { try { localStorage.setItem(k, v) } catch {} } };
+
+function order() {
+  const p = resolved();
+  const list = EP.filter((e) => matches(e, p));
+  const key = { rank: (e) => e.n, gdp: (e) => -(e.gdpValue ?? -1), flights: (e) => -(e.destinations?.total ?? -1) }[sort];
+  return list.slice().sort((a, b) => key(a) - key(b));
+}
+
+// Masthead: the gap under the kicker matches the gap between the intro line and the tallest ladder bar.
+function balanceMast() {
+  const h = document.querySelector('.mast h1'), p = document.querySelector('.mast p'), bars = [...document.querySelectorAll('#ladder button')];
+  if (!h || !p || !bars.length) return;
+  if (matchMedia('(max-width: 640px)').matches) { h.style.marginTop = ''; return }
+  const below = Math.min(...bars.map((b) => b.getBoundingClientRect().top)) - p.getBoundingClientRect().bottom;
+  h.style.marginTop = Math.max(8, Math.round(below)) + 'px';
+}
+addEventListener('resize', () => balanceMast());
+if (document.fonts) document.fonts.ready.then(() => balanceMast());
+
+function ladder() {
+  $('ladder').innerHTML = ALL.map(([n, name, pct]) => {
+    const e = byN.get(n);
+    return `<button type="button" data-n="${n}" ${e ? '' : 'disabled'} title="#${n} ${esc(name)} · ${pct}%${e ? '' : ' · ' + dayDate(n)}" aria-label="#${n} ${esc(name)}, ${pct}% online${e ? '' : ', coming ' + dayDate(n)}"
+      style="height:${Math.max(14, pct)}%;${e ? 'background:' + e.accent : ''}" class="${cur && cur.n === n ? 'on' : ''}"></button>`;
+  }).join('');
+  balanceMast();
+}
+
+async function drawMap() {
+  let m;
+  try { m = await fetch('africa.json').then((r) => r.json()) } catch { $('map').textContent = 'The map could not load.'; return }
+  const parts = [`<svg viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="Map of Africa. Published countries can be selected."><path class="land" d="${m.land}"/>`];
+  for (const [rank, name, pct, id] of ALL) {
+    const c = m.c[id]; if (!c) continue;
+    const t = `<title>#${rank} ${esc(name)} · ${pct}%</title>`;
+    parts.push(`<path class="c" data-id="${id}" data-n="${rank}" d="${c.d}">${t}</path>`);
+    if (ISLES.has(id)) parts.push(`<circle class="c isle" data-id="${id}" data-n="${rank}" cx="${c.x}" cy="${c.y}" r="6">${t}</circle>`);
+  }
+  parts.push('</svg>');
+  $('map').innerHTML = parts.join('');
+  $('map').addEventListener('click', (ev) => { const el = ev.target.closest('[data-n]'); if (el && byN.has(+el.dataset.n)) select(+el.dataset.n, true) });
+  $('map').addEventListener('keydown', (ev) => { if ((ev.key === 'Enter' || ev.key === ' ') && ev.target.dataset?.n) { ev.preventDefault(); select(+ev.target.dataset.n, true) } });
+  paintMap();
+}
+function paintMap() {
+  const P = resolved();
+  document.querySelectorAll('#map .c').forEach((el) => {
+    const n = +el.dataset.n, e = byN.get(n), regionOf = ALL[n - 1][4];
+    el.classList.toggle('pub', !!e);
+    el.classList.toggle('cur', !!cur && cur.n === n);
+    el.classList.toggle('dim', active() ? !(e && matches(e, P)) : false);
+    if (e) { el.setAttribute('tabindex', '0'); el.setAttribute('role', 'button') }
+  });
+}
+
+function strip() {
+  const list = order();
+  const cards = list.map((e) => `<button type="button" class="card ${cur && cur.n === e.n ? 'cur' : ''}" data-n="${e.n}" style="--c:${e.accent}">
+      <img src="${esc(e.thumb)}" alt="" loading="lazy" width="480" height="270">
+      <span class="meta"><b>#${e.n} ${esc(e.country)}</b><span>${e.internetPct}% online · ${e.destinations?.total ?? '–'} nonstop</span></span></button>`);
+  if (sort === 'rank' && !quick && !query.trim()) {
+    const next = ALL.filter(([n, , , , r]) => !byN.has(n) && (region === 'All' || r === region)).slice(0, 6);
+    for (const [n, name, pct] of next) cards.push(`<div class="card soon" aria-label="Coming ${dayDate(n)}: ${esc(name)}"><div class="ph num">#${n}</div>
+      <span class="meta"><b>${esc(name)}</b><span>${pct}% online · ${dayDate(n)}</span></span></div>`);
+  }
+  $('strip').innerHTML = cards.length ? cards.join('') : '';
+  $('striptitle').textContent = quick || query.trim() ? 'Matching films' : region === 'All' ? 'All films' : `${region} Africa`;
+  const pubCount = list.length;
+  $('stripnote').textContent = pubCount ? `${pubCount} published${sort === 'rank' ? ' · next ones dashed' : ''}` : (active() ? 'No films match yet' : 'No films yet');
+  const c = $('strip').querySelector('.card.cur');
+  if (c) $('strip').scrollTo({ left: c.offsetLeft - 8, behavior: 'smooth' });
+}
+
+function rowsList(arr) {
+  if (!arr || !arr.length) return '<p class="note">Not shown in this film.</p>';
+  return `<ul class="rows">${arr.slice(0, 4).map(([l, v]) => `<li><span>${esc(l)}</span><span>${esc(v)}</span></li>`).join('')}</ul>`;
+}
+function file(e) {
+  const d = e.destinations || {};
+  const regs = ['Africa', 'Europe', 'Middle East', 'Americas', 'Asia', 'Oceania'];
+  const max = Math.max(1, ...regs.map((r) => d[r] || 0));
+  const flights = d.total != null
+    ? `<div class="regions">${regs.map((r) => { const v = d[r] || 0; return `<div class="reg ${v ? '' : 'z'}"><span>${r}</span><i style="width:${(v / max) * 100}%;${v ? '' : 'opacity:0'}"></i><span class="num">${v}</span></div>` }).join('')}</div>`
+    : `<p class="note">This first film shows one long-haul arc instead of a full route map.</p>`;
+  const facts = (e.airportFacts || []).slice(0, 3).map(esc).join(' · ');
+  $('file').innerHTML = `
+    <div class="stats">
+      <div class="stat"><span class="label">Online</span><b class="num">${e.internetPct}%</b><small>World 70.9% · Africa 43.1%</small></div>
+      <div class="stat"><span class="label">People</span><b>${esc(String(e.population).split(/[ (·]/)[0])}</b><small>${esc(e.population)}</small></div>
+      <div class="stat"><span class="label">GDP per person</span><b class="num">${e.gdpValue ? '$' + e.gdpValue.toLocaleString('en-US') : '–'}</b><small>${esc(e.gdpPerCapita)}</small></div>
+      <div class="stat"><span class="label">Nonstop cities</span><b class="num">${d.total ?? '–'}</b><small>from ${esc(e.hub?.airport || e.hub?.city || '')}</small></div>
+    </div>
+    <div class="cols">
+      <div class="block"><span class="label">What it buys</span><h3>${esc(e.headline?.imports || '')}</h3>${rowsList(e.topImports)}${e.tradeBalance ? `<p class="note">${esc(e.tradeBalance)}</p>` : ''}</div>
+      <div class="block"><span class="label">What it sells</span><h3>${esc(e.headline?.exports || '')}</h3>${rowsList(e.topExports)}${e.exportsTotal ? `<p class="note">Total: ${esc(e.exportsTotal)}</p>` : ''}</div>
+      <div class="block"><span class="label">Direct flights</span><h3>${esc(e.headline?.map || 'Flights')}</h3>${flights}${facts ? `<p class="note">${facts}</p>` : ''}</div>
+      <div class="block"><span class="label">Fintech</span><h3>${esc(e.headline?.fintech || '')}</h3>
+        <div class="chips">${(e.fintech || []).slice(0, 4).map((f) => `<div class="chip"><em>${esc(f.tag || '')}</em><strong>${esc(f.name || '')}</strong></div>`).join('')}</div></div>
+    </div>
+    <div class="verdicts">
+      <div><span class="label">Regulation, our read</span><p>${esc(e.regulationRead || '–')}</p></div>
+      <div><span class="label">Stability</span><p>${esc(e.stability || '–')}</p></div>
+      <div><span class="label">Business climate</span><p>${esc(e.business || '–')}</p></div>
+    </div>
+    <div class="block"><span class="label">Three takeaways</span>
+      <ol class="take">${(e.takeaways || []).map(([t, l]) => `<li><span>${t && !/^\d+$/.test(t) ? `<b>${esc(t)}</b>` : ''}${esc(l)}</span></li>`).join('')}</ol></div>
+    <p class="src"><span class="label">Sources in the film</span><br>${(e.sourcesOnScreen || []).map((s) => esc(String(s).replace(/^\s*sources?\s*:\s*/i, ''))).join(' · ')}</p>`;
+}
+
+function select(n, play = false) {
+  const e = byN.get(n); if (!e) return;
+  cur = e;
+  document.documentElement.style.setProperty('--ep', e.accent);
+  const v = $('vid');
+  if (v.dataset.n !== String(n)) { v.src = e.video; v.poster = e.thumb; v.dataset.n = n }
+  $('rank').textContent = '#' + e.n;
+  $('name').textContent = e.country;
+  $('sub').textContent = `Day ${e.n} of 54 · ${dayDate(e.n)} · ${e.internetPct}% online`;
+  const list = order(), i = list.indexOf(e);
+  $('prev').disabled = i <= 0; $('next').disabled = i < 0 || i >= list.length - 1;
+  file(e); ladder(); paintMap(); strip();
+  try { history.replaceState(null, '', '#' + slug(e.country)) } catch {}
+  if (play) v.play().catch(() => {});
+}
+function step(d, play) { const list = order(), i = list.indexOf(cur); const t = list[i + d]; if (t) select(t.n, play) }
+
+function refresh() {
+  const list = order();
+  if (list.length && !list.includes(cur)) select(list[0].n); else if (cur) select(cur.n);
+  answer();
+}
+function controls() {
+  $('quick').innerHTML = QUICK.map((x) => `<button type="button" aria-pressed="${x.id === quick}" data-q="${x.id}">${x.label}</button>`).join('');
+}
+function wireFinder() {
+  $('quick').onclick = (ev) => { const b = ev.target.closest('button'); if (!b) return; quick = quick === b.dataset.q ? null : b.dataset.q; controls(); refresh() };
+  $('q').addEventListener('input', () => { query = $('q').value; refresh() });
+  $('qclear').onclick = () => { query = ''; $('q').value = ''; refresh(); $('q').focus() };
+  $('answer').onclick = (ev) => { const b = ev.target.closest('.hit'); if (b) select(+b.dataset.n, true) };
+}
+
+async function boot() {
+  let data;
+  try { data = await fetch('episodes.json').then((r) => r.json()) } catch { $('name').textContent = 'The film list could not load.'; return }
+  EP = data.episodes.map((e) => ({ ...e, region: ALL[e.n - 1][4] }));
+  EP.forEach((e) => { e.hay = norm(strings(e).map(([, s]) => s).join(' ')) });
+  byN = new Map(EP.map((e) => [e.n, e]));
+  $('count').textContent = `${EP.length} / 54`;
+  const saved = store.get('autoplay'); if (saved !== null) $('auto').checked = saved === '1';
+  $('auto').onchange = () => store.set('autoplay', $('auto').checked ? '1' : '0');
+  $('prev').onclick = () => step(-1, true);
+  $('next').onclick = () => step(1, true);
+  $('vid').addEventListener('ended', () => { if ($('auto').checked) step(1, true) });
+  $('sort').onchange = () => { sort = $('sort').value; refresh() };
+  $('strip').onclick = (ev) => { const c = ev.target.closest('.card[data-n]'); if (c) select(+c.dataset.n, true) };
+  $('ladder').onclick = (ev) => { const b = ev.target.closest('button[data-n]'); if (b && !b.disabled) select(+b.dataset.n, true) };
+  document.addEventListener('keydown', (ev) => {
+    if (ev.target.closest('input, select, video')) return;
+    if (ev.key === 'ArrowRight') step(1, false); if (ev.key === 'ArrowLeft') step(-1, false);
+  });
+  controls(); wireFinder();
+  const h = (location.hash || '').slice(1);
+  const fromHash = EP.find((e) => slug(e.country) === h);
+  select((fromHash || EP[EP.length - 1]).n);
+  answer();
+  drawMap();
+}
+boot();
+</script>
+
+</body></html>
