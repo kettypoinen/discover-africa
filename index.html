@@ -97,6 +97,10 @@ button:focus-visible, select:focus-visible, a:focus-visible, .card:focus-visible
 /* map */
 .side { min-width: 0 }
 .side .sticky { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); display: grid; gap: 14px }
+.map { aspect-ratio: 600 / 640 } /* reserve the map's space so the sidebar doesn't jump when it loads */
+/* hold space while the episode loads, so nothing below moves when it arrives */
+.who .sub:empty::before { content: "\00a0" }
+.file:empty { min-height: 1200px }
 .map svg { width: 100%; height: auto; display: block }
 .map .land { fill: var(--land) }
 .map .c { fill: var(--line); stroke: var(--paper); stroke-width: .6; transition: fill .2s }
@@ -361,7 +365,7 @@ function ladder() {
 
 async function drawMap() {
   let m;
-  try { m = await fetch('africa.json').then((r) => r.json()) } catch { $('map').textContent = 'The map could not load.'; return }
+  try { m = await MAP_DATA } catch { $('map').textContent = 'The map could not load.'; return }
   const parts = [`<svg viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="Map of Africa. Published countries can be selected."><path class="land" d="${m.land}"/>`];
   for (const [rank, name, pct, id] of ALL) {
     const c = m.c[id]; if (!c) continue;
@@ -472,9 +476,15 @@ function wireFinder() {
   $('answer').onclick = (ev) => { const b = ev.target.closest('.hit'); if (b) select(+b.dataset.n, true) };
 }
 
+// Start both downloads straight away, in parallel.
+const MAP_DATA = fetch('africa.json').then((r) => r.json());
+const EP_DATA = fetch('episodes.json').then((r) => r.json());
+MAP_DATA.catch(() => {}); EP_DATA.catch(() => {});
+
 async function boot() {
+  ladder(); // draw the 54 bars (fixed ranking) before the data arrives, so the masthead doesn't move later
   let data;
-  try { data = await fetch('episodes.json').then((r) => r.json()) } catch { $('name').textContent = 'The film list could not load.'; return }
+  try { data = await EP_DATA } catch { $('name').textContent = 'The film list could not load.'; return }
   EP = data.episodes.map((e) => ({ ...e, region: ALL[e.n - 1][4] }));
   EP.forEach((e) => { e.hay = norm(strings(e).map(([, s]) => s).join(' ')) });
   byN = new Map(EP.map((e) => [e.n, e]));
